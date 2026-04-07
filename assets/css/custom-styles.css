@@ -1,1 +1,72 @@
+/* === Tarot Cathedral - Witrażowa paleta === */
 
+body {
+    background-color: #F8F4ED !important;
+    color: #2C2C2C;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1, h2, h3, .page-title {
+    color: #1E4D7A !important;           /* głęboki witrażowy błękit */
+    font-weight: 700;
+}
+
+a {
+    color: #9B2A2A;                      /* rubinowy akcent */
+}
+
+a:hover {
+    color: #C26B5B;
+}
+
+/* Nawigacja */
+.navbar {
+    background-color: #1F2A38 !important;
+}
+
+.navbar a, .navbar .nav-link {
+    color: #F8F4ED !important;
+}
+
+.navbar a:hover {
+    color: #D4A017 !important;           /* subtelne złoto */
+}
+
+/* Tytuł posta */
+.page-title {
+    color: #1E4D7A !important;
+    text-shadow: none;
+    font-size: 2.7rem;
+}
+
+/* Subtitle */
+.post-subtitle {
+    color: #555;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2A38 !important;
+    color: #C9B9A9;
+}
+
+footer a {
+    color: #D4A017;
+}
+
+/* Małe poprawki czytelności */
+.post-content {
+    line-height: 1.75;
+    font-size: 1.05rem;
+}
+
+/* Akcenty na buttonach i linkach w menu dropdown */
+.dropdown-menu {
+    background-color: #1F2A38;
+}
+
+.dropdown-item:hover {
+    background-color: #2C5F95;
+    color: white;
+}
