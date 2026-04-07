@@ -54,6 +54,11 @@ footer a:hover {
     color: #D4A53B !important;
 }
 
+
+.navbar-custom .navbar-collapse {
+        border-top: none !important;
+    }
+
 /* Tytuł posta */
 .page-title {
     color: #9B2A4C !important;
