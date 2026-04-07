@@ -13,7 +13,13 @@ body {
     line-height: 1.85 !important;
     letter-spacing: 0.01rem;
     /* Zmieniamy kursor na magiczną gwiazdkę/iskierkę */
-    cursor: url('https://cdn-icons-png.flaticon.com/32/1067/1067357.png'), auto !important;
+    /* Ścieżka do Twojego pliku z kursorem na serwerze lub link zewnętrzny */
+    cursor: url('/assets/img/kursor.png'), auto !important;
+}
+
+/* Ważne: żeby kursor nie znikał nad linkami, dodaj to też tutaj: */
+a, button, .tag-btn, .navbar-brand {
+    cursor: url('/assets/img/kursor.png'), pointer !important;
 }
 
 /* 3. TYTUŁ Z EFEKTEM PRZEPŁYWAJĄCEGO ŚWIATŁA (Shimmer) */
