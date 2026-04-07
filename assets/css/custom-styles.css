@@ -1,11 +1,11 @@
-/* === Tarot Cathedral – Mystic & Solemn (Brown-Beige-Blue) === */
+/* === Tarot Cathedral – Poprawiona wersja (Wszystkie hovery na niebiesko) === */
 
-/* Import czcionek: Cormorant Garamond do nagłówków, Montserrat do tekstu */
+/* Import czcionek */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Montserrat:wght@400;500&display=swap');
 
 body {
-    background-color: #FDF8ED !important; /* Odcień starego papieru z ryciny */
-    color: #3D2B1F; /* Ciemny brąz ryciny zamiast czerni */
+    background-color: #FDF8ED !important;
+    color: #3D2B1F;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 h1, h2, h3, .page-title, .navbar-brand {
     font-family: 'Cormorant Garamond', serif !important;
     font-weight: 600 !important;
-    color: #3D2B1F !important; /* Brązowy dla powagi */
+    color: #3D2B1F !important;
 }
 
 /* Kolor dla linków i głównych akcentów (Błękit Witrażowy) */
@@ -24,36 +24,36 @@ a.more-link,
 .navbar a:hover, 
 footer a {
     color: #2A829D !important; 
+    transition: color 0.3s ease;
 }
 
-/* Hover → Złoty odcień z witraża */
+/* Hover na niebiesko - usunięty żółty */
 a:hover, 
 .post-content a:hover, 
 a.more-link:hover, 
 footer a:hover {
-    color: #D4A53B !important;
+    color: #34A0C1 !important; /* Nieco jaśniejszy błękit przy najechaniu */
     text-decoration: none;
 }
 
-/* --- Nawigacja (Ciemny Brąz Ryciny) --- */
+/* --- Nawigacja (Brąz Ryciny) --- */
 
 .navbar {
     background-color: #3D2B1F !important; 
-    border-bottom: 2px solid #D4A53B !important; /* Złoty pasek pod menu */
+    border-bottom: 2px solid #2A829D !important; /* Niebieski pasek zamiast złotego */
 }
 
 .navbar a {
-    color: #FDF8ED !important; /* Beżowy tekst na brązowym tle */
+    color: #FDF8ED !important;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
 }
 
-/* --- Dropdown Menu (Poprawione kolory) --- */
+/* --- POPRAWKA DROPDOWN (Niebieski Hover) --- */
 
 .navbar-custom .nav-item.dropdown .dropdown-menu,
 .dropdown-menu {
-    background-color: #4D392C !important; /* Nieco jaśniejszy brąz */
-    border: 1px solid #D4A53B !important;
+    background-color: #4D392C !important;
+    border: 1px solid #2A829D !important;
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item,
@@ -63,32 +63,34 @@ footer a:hover {
     padding: 10px 20px !important;
 }
 
+/* Kluczowa zmiana: niebieski hover w menu */
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:hover,
 .dropdown-item:hover {
     background-color: #3D2B1F !important;
-    color: #D4A53B !important;
+    color: #2A829D !important; 
 }
 
-/* --- Posty --- */
+/* --- Posty (Powrót do wyrównania do lewej) --- */
 
 .page-title {
-    font-size: 3.5rem; /* Większy, katedralny tytuł */
-    text-align: center;
+    font-size: 3.5rem;
+    text-align: left; /* Powrót do lewej */
     margin-bottom: 20px;
 }
 
 .post-subtitle {
-    color: #6D5A4D; /* Przygaszony brąz */
+    color: #6D5A4D;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left; /* Powrót do lewej */
+    margin-bottom: 15px;
 }
 
 .post-content {
     line-height: 1.8;
     font-size: 1.15rem;
-    text-align: justify;
+    text-align: left; /* Opcjonalnie zmień na justify, jeśli wolisz równe bloki */
 }
 
 /* --- Footer --- */
@@ -96,15 +98,5 @@ footer a:hover {
 footer {
     background-color: #3D2B1F !important;
     color: #FDF8ED !important;
-    border-top: 2px solid #D4A53B !important;
-    padding: 30px 0;
-}
-
-footer a {
-    color: #2A829D !important;
-}
-
-/* --- Usunięcie zbędnych obramowań --- */
-.navbar-custom .navbar-collapse {
-    border: none !important;
+    border-top: 2px solid #2A829D !important;
 }
