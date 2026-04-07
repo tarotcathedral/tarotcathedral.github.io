@@ -6,13 +6,6 @@ permalink: /swords/
 ---
 Below, you will find the meanings of the Swords cards, which I created based on the **Grimaud** deck and the **Tarot de Marseille by Fournier**.
 
-My interpretations are based on my own observations of the cards' designs. I focused on the differences between:
-
-- **Even-numbered cards:** Looking at the flowers in the center.
-- **Odd-numbered cards:** Looking at the swords as an extra symbol.
-
-I compared specific details, such as the size of the flowers, whether their stems are cut or whole, and the colors used for both the flowers and the swords. I also paid attention to unique details. For example, the **3 of Swords**, which is the only card that features both flowers and a sword together, or the broken golden sword on the **9 of Swords.**
-
 In the **Tarot de Marseille**, the Minor Arcana are not connected to the elements (the elements are a concept from 19th-century occultists). If they relate to anything, it is **social classes**. So, in the Tarot de Marseille, Swords do not represent Air. Instead, they represent the **nobility, knights, and power**.
 
 To my surprise, some of my meanings are similar to the **Rider-Waite** deck, but this is purely a coincidence. I tried not to be inspired by RWS at all. However, I think that Waite must have had a similar way of thinking. It seems to me that his deck is not as different from the **Tarot de Marseille** as we usually think.
@@ -30,6 +23,15 @@ To my surprise, some of my meanings are similar to the **Rider-Waite** deck, but
 ---
 
 ## Swords Minor Arcana interpretation, meanings and symbols
+
+My interpretations are based on my own observations of the cards' designs. I focused on the differences between:
+
+- **Even-numbered cards:** Looking at the flowers in the center.
+- **Odd-numbered cards:** Looking at the swords as an extra symbol.
+
+I compared specific details, such as the size of the flowers, whether their stems are cut or whole, and the colors used for both the flowers and the swords. I also paid attention to unique details. For example, the **3 of Swords**, which is the only card that features both flowers and a sword together, or the broken golden sword on the **9 of Swords.**
+
+---
 
 ![Ace of swords](/assets/img/swords-ace.jpg){: .mx-auto.d-block :}
 
@@ -165,13 +167,13 @@ Two blue swords (crossed). One of them is broken. They are stuck between the oth
 
 ---
 
+## Swords Court Cards - interpretation, meanings and symbols
+
 The final act of the suit, shown in the broken blades of the **9 and 10 of Swords**, proves that cutting through reality too much eventually damages the tool of power itself.
 
 This suit ends tragically. If the **9 and 10** represent any kind of completeness, it is the completeness of self-destruction. Power destroys itself by cutting too much and too often. Eventually, power (whether it is noble, knightly, or personal) breaks its own tool. It delivers a final, damaged blow, and after that, no more moves are possible.
 
 ---
-
-## Swords Court Cards - interpretation, meanings and symbols
 
 ![Valet of swords](/assets/img/swords-valet.jpg){: .mx-auto.d-block :}
 
