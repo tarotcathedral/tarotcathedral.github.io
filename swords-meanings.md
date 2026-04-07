@@ -31,7 +31,7 @@ To my surprise, some of my meanings are similar to the **Rider-Waite** deck, but
 
 ## Swords Minor Arcana interpretation, meanings and symbols
 
-![Ace of swords](https://beautifuljekyll.com/assets/img/swords-ace.jpg){: .mx-auto.d-block :}
+![Ace of swords](/assets/img/swords-ace.jpg){: .mx-auto.d-block :}
 
 ### Ace of Swords - Granting
 
