@@ -2,6 +2,9 @@
 ### Tarot Cathedral - Beautiful Jekyll Configuration
 ###########################################################
 
+site-css:
+  - "/assets/css/custom-styles.css"
+
 ############################
 # --- Required options --- #
 ############################
