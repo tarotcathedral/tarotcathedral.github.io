@@ -1,5 +1,5 @@
 /* ============================================================
-   TAROT CATHEDRAL - OFFICIAL STYLESHEET
+   TAROT CATHEDRAL - WITCHY UwU EDITION ✨💜
    Colors: Brown (#3D2B1F), Beige (#FDF8ED), Blue (#2A829D)
    Fonts: Bree Serif (H1), Lora (H2/H3), Open Sans (Body)
    ============================================================ */
@@ -14,6 +14,12 @@ body {
     font-family: 'Open Sans', sans-serif !important;
     line-height: 1.85 !important;
     letter-spacing: 0.01rem;
+}
+
+/* Złote zaznaczanie tekstu */
+::selection {
+    background: rgba(212, 165, 59, 0.2);
+    color: #3D2B1F;
 }
 
 /* Tytuły (Bree Serif) */
@@ -32,21 +38,48 @@ h2, h3, h4, .post-subtitle {
     text-align: left;
 }
 
-/* 3. LINKI I INTERAKCJE (Błękit Witrażowy) */
+/* 3. LINKI I INTERAKCJE (Efekt rozsuwanego podkreślenia) */
 a, .post-content a, a.more-link, footer a {
     color: #2A829D !important;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    text-decoration: none !important;
+}
+
+.post-content a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -1px;
+    left: 50%;
+    background-color: #34A0C1;
+    transition: all 0.3s ease;
 }
 
 a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
     color: #34A0C1 !important;
-    text-decoration: none;
 }
 
-/* 4. NAWIGACJA (NAVBAR) */
+.post-content a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* 4. NAWIGACJA (Glow Effect) */
 .navbar {
     background-color: #3D2B1F !important; 
     border-bottom: 2px solid #2A829D !important;
+}
+
+.navbar-brand {
+    transition: all 0.5s ease-in-out !important;
+}
+
+.navbar-brand:hover {
+    color: #FDF8ED !important;
+    text-shadow: 0 0 8px rgba(42, 130, 157, 0.7);
+    transform: scale(1.03);
 }
 
 .navbar a {
@@ -64,6 +97,7 @@ a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
 .dropdown-menu {
     background-color: #4D392C !important;
     border: 1px solid #2A829D !important;
+    border-radius: 10px; /* Delikatne zaokrąglenie menu */
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item,
@@ -81,11 +115,7 @@ a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
     color: #2A829D !important; 
 }
 
-.navbar-custom .navbar-collapse {
-    border: none !important;
-}
-
-/* 5. LISTA POSTÓW I ODDECH (LAYOUT) */
+/* 5. LISTA POSTÓW (Floating effect) */
 .page-title {
     font-size: 3.2rem;
     margin-bottom: 15px;
@@ -98,10 +128,17 @@ a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
     margin-bottom: 25px;
 }
 
-/* Odstępy między zapowiedziami postów na głównej */
 .post-preview {
     margin-bottom: 60px !important;
-    padding-bottom: 20px;
+    padding: 25px;
+    transition: all 0.4s ease-in-out !important;
+    border-radius: 15px;
+}
+
+.post-preview:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(61, 43, 31, 0.05) !important;
 }
 
 .post-content {
@@ -112,33 +149,28 @@ a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
     margin-bottom: 1.8rem !important;
 }
 
-/* 6. TAGI I PRZYCISKI */
+/* 6. TAGI I PRZYCISKI (Puszyste i zaokrąglone) */
 .btn-primary, .tag-btn, .post-tag {
     background-color: #2A829D !important;
     border-color: #2A829D !important;
     color: #FFFFFF !important;
     font-family: 'Open Sans', sans-serif;
-    transition: all 0.3s ease;
+    border-radius: 25px !important; /* UwU roundness */
+    padding: 8px 20px !important;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.btn-primary:hover, .tag-btn:hover, .post-tag:hover,
-.btn-primary:focus, .btn-primary:active {
+.btn-primary:hover, .tag-btn:hover, .post-tag:hover {
     background-color: #34A0C1 !important;
-    border-color: #34A0C1 !important;
+    transform: scale(1.1) rotate(-1deg);
     color: #FFFFFF !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.tag-btn a, .post-tag a {
-    color: #FFFFFF !important;
-    text-decoration: none !important;
 }
 
 .tag-count {
     color: rgba(255, 255, 255, 0.8) !important;
 }
 
-/* 7. STOPKA (FOOTER) */
+/* 7. STOPKA (Pulsowanie ikon) */
 footer {
     background-color: #3D2B1F !important;
     color: #FDF8ED !important;
@@ -146,7 +178,15 @@ footer {
     padding: 30px 0;
 }
 
-/* Ikonki w stopce */
+footer .fa-stack {
+    transition: all 0.3s ease-in-out;
+}
+
+footer a:hover .fa-stack {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 5px rgba(42, 130, 157, 0.5));
+}
+
 footer .fa-circle {
     color: #4D392C !important;
 }
@@ -155,11 +195,7 @@ footer .fa-inverse {
     color: #FDF8ED !important;
 }
 
-footer a:hover .fa-circle {
-    color: #2A829D !important;
-}
-
-/* 8. WERSJA MOBILNA (MOBILE ODDECH) */
+/* 8. WERSJA MOBILNA */
 @media only screen and (max-width: 767px) {
     .post-preview {
         margin-bottom: 80px !important;
