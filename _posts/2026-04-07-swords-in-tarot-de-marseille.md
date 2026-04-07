@@ -4,7 +4,6 @@ title:  "Swords in Tarot de Marseille – Meanings"
 subtitle: "Interpretations based on Grimaud and Fournier decks"
 date:   2026-04-07
 tags: [swords, tarot-de-marseille, minor-arcana, meanings]
-author: Tarot Cathedral
 thumbnail-img: ""
 ---
 
