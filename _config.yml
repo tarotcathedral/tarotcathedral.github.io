@@ -13,15 +13,15 @@ author: Tarot Cathedral
 ###############################################
 navbar-links:
   Home: "/"
-  Blog: "blog"
-  My art: "my art"
-  Tags: "tags"
-  Meanings: 
+  Card meanings: 
     - Major Arcana: "major-arcana"
     - Wands: "wands"
     - Swords: "swords"
     - Coins: "coins"
     - Chalices: "chalices"
+  Blog: "blog"
+  My art: "my art"
+  Tags: "tags"
   About: "about"
 
 ################
