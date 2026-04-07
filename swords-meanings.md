@@ -31,7 +31,7 @@ To my surprise, some of my meanings are similar to the **Rider-Waite** deck, but
 
 ## Swords Minor Arcana interpretation, meanings and symbols
 
-![ace.jpg](attachment:9f7f1394-3612-4690-bfba-aedd0207b2e2:ace.jpg)
+![Ace of swords](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
 
 ### Ace of Swords - Granting
 
@@ -43,7 +43,7 @@ A **blue sword** held by the Hand of God (Manus Dei), topped with a crown and la
 - **Work:** Appointment to a position, receiving a tool of power (e.g., a signature, a seal, an order).
 - **Person:** Someone who has just received real power to act and decide.
 
-![2.jpg](attachment:447f6e0f-293e-4d78-bc49-fef1d0f394af:2.jpg)
+![2 of swords](https://beautifuljekyll.com/assets/img/swords-2.jpg){: .mx-auto.d-block :}
 
 ### 2 of Swords - Balance
 
@@ -55,7 +55,7 @@ A very complex, multicolored flower in the center of two scimitars.
 - **Work:** A diplomatic agreement, a high-level alliance.
 - **Person:** A diplomatic person who can combine strength with beauty and harmony.
 
-![3.jpg](attachment:18525776-8812-4359-98b1-aeb4d3029627:3.jpg)
+![3 of swords](https://beautifuljekyll.com/assets/img/swords-3.jpg){: .mx-auto.d-block :}
 
 ### 3 of Swords - Piercing
 
@@ -75,7 +75,7 @@ A **flesh-colored sword** pierces two crossed gold branches.
 - **Work:** A difficult decision where someone must "pierce" through their own current position or loyalty.
 - **Person:** A person who wounds themselves to cut through something important - brave but suffering.
 
-![4.jpg](attachment:f684af0a-df67-4e44-988d-c9006f95dcb7:4.jpg)
+![4 of swords](https://beautifuljekyll.com/assets/img/swords-4.jpg){: .mx-auto.d-block :}
 
 ### 4 of Swords - Suspension
 
@@ -87,7 +87,7 @@ A simple, neutral blue flower with a red center. There no additional sword - no 
 - **Work:** A tactical break, reorganization of forces.
 - **Person:** Someone who knows how to take a strategic pause.
 
-![5.jpg](attachment:4d7e27e3-6b72-45a8-ad63-a050eb54be79:5.jpg)
+![5 of swords](https://beautifuljekyll.com/assets/img/swords-5.jpg){: .mx-auto.d-block :}
 
 ### 5 of Swords - Rivalry
 
@@ -99,7 +99,7 @@ Five scimitars + a central flesh-colored sword.
 - **Work:** Conflict in a team or among equal colleagues - fighting for a better spot or recognition.
 - **Person:** An ambitious person fighting for their position, often at the cost of relationships.
 
-![6.jpg](attachment:1f9c3401-13cb-49d6-ab45-e57d34451ab1:6.jpg)
+![6 of swords](https://beautifuljekyll.com/assets/img/swords-6.jpg){: .mx-auto.d-block :}
 
 ### 6 of Swords - Withdrawal
 
@@ -111,7 +111,7 @@ A red flower, similar to the one from 4 of Swords, but this one is more red.
 - **Work:** Strategic withdrawal or changing the field of operation.
 - **Person:** Someone who knows how to elegantly change course.
 
-![7.jpg](attachment:021324a6-f993-40be-8f7d-c0481a3215a2:7.jpg)
+![7 of swords](https://beautifuljekyll.com/assets/img/swords-7.jpg){: .mx-auto.d-block :}
 
 ### 7 of Swords - Tactics
 
@@ -123,7 +123,7 @@ A blue, ordinary sword in the center.
 - **Work:** Behind-the-scenes diplomacy, intrigues, defending one’s position.
 - **Person:** A cunning tactician who acts cleverly, but not necessarily "cleanly."
 
-![8.jpg](attachment:f0944235-08e0-41e3-b8fd-ec32b27f3ed4:8.jpg)
+![8 of swords](https://beautifuljekyll.com/assets/img/swords-8.jpg){: .mx-auto.d-block :}
 
 ### 8 of Swords - Restriction
 
@@ -135,7 +135,7 @@ A very small blue cornflower head - almost lost among the swords.
 - **Work:** Rigid structures, excess of rules and control, feeling tied down.
 - **Person:** Someone who feels restricted by their own rules or the system.
 
-![9.jpg](attachment:da8bd28a-997f-4c09-89ed-9abf443e75b6:9.jpg)
+![9 of swords](https://beautifuljekyll.com/assets/img/swords-9.jpg){: .mx-auto.d-block :}
 
 ### 9 of Swords - Breaking
 
@@ -147,7 +147,7 @@ A **gold sword** - broken.
 - **Work:** Fall of authority, broken professional pride.
 - **Person:** A person whose internal power and strength have been broken.
 
-![10.jpg](attachment:e9ff0765-d2a7-4615-900f-c36fa400f1a1:10.jpg)
+![10 of swords](https://beautifuljekyll.com/assets/img/swords-10.jpg){: .mx-auto.d-block :}
 
 ### 10 of Swords - The Fall
 
