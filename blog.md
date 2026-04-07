@@ -4,12 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-<h2>Blog – Tarot Cathedral</h2>
-
-<p>
-  Wszystkie artykuły dotyczące Tarot de Marseille, symboliki kart, historii i numerologii.
-</p>
-
 <hr style="margin: 40px 0;">
 
 <!-- Lista wszystkich wpisów -->
@@ -39,6 +33,6 @@ permalink: /blog/
 
 {% if site.posts.size == 0 %}
   <p style="font-style: italic; color: #777;">
-    Jeszcze nie ma żadnych artykułów. Pierwszy pojawi się wkrótce!
+    Coming soon!
   </p>
 {% endif %}
