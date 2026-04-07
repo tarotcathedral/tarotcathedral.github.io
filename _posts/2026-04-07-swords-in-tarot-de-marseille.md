@@ -5,9 +5,7 @@ subtitle: "Interpretations based on Grimaud and Fournier decks"
 date:   2026-04-07
 tags: [swords, tarot-de-marseille, minor-arcana, meanings]
 author: Tarot Cathedral
-cover-img: /assets/img/swords-cover.jpg
-thumbnail-img: /assets/img/swords-thumb.jpg
-share-img: /assets/img/swords-cover.jpg
+thumbnail-img: ""
 ---
 
 
