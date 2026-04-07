@@ -22,4 +22,4 @@ I want to enjoy Tarot again. So, I made a decision: for some time, I will use on
 
 Sometimes, to see clearly, you need to look at only one thing at a time, right?
 
-Because of this, I started to make my own card meanings, based only on Fournier and Grimaud. You can find them on this website.
+Because of this, I started to make my own card meanings, based only on Fournier and Grimaud. You can find them on this website: [Swords meanings](https://tarotcathedral.com/swords/). 
