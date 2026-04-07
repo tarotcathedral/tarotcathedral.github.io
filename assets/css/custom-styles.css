@@ -1,72 +1,84 @@
-/* === Tarot Cathedral - Witrażowa paleta === */
+/* === Tarot Cathedral – Butelkowa Zieleń + Malina === */
 
 body {
-    background-color: #F8F4ED !important;
+    background-color: #F8F5EF !important;
     color: #2C2C2C;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
+/* Nagłówki i tytuły postów */
 h1, h2, h3, .page-title {
-    color: #1E4D7A !important;           /* głęboki witrażowy błękit */
+    color: #1A3C35 !important;        /* butelkowa zieleń */
     font-weight: 700;
 }
 
+/* Linki */
 a {
-    color: #9B2A2A;                      /* rubinowy akcent */
+    color: #9B2A4C;                   /* malinowy */
 }
 
 a:hover {
-    color: #C26B5B;
+    color: #C14A6A;
 }
 
 /* Nawigacja */
 .navbar {
-    background-color: #1F2A38 !important;
+    background-color: #132B26 !important;
 }
 
 .navbar a, .navbar .nav-link {
-    color: #F8F4ED !important;
+    color: #F8F5EF !important;
 }
 
 .navbar a:hover {
-    color: #D4A017 !important;           /* subtelne złoto */
+    color: #D4A53B !important;        /* subtelne złoto */
 }
 
 /* Tytuł posta */
 .page-title {
-    color: #1E4D7A !important;
+    color: #1A3C35 !important;
     text-shadow: none;
-    font-size: 2.7rem;
+    font-size: 2.75rem;
+    margin-bottom: 12px;
 }
 
 /* Subtitle */
 .post-subtitle {
     color: #555;
     font-style: italic;
+    font-size: 1.32rem;
 }
 
 /* Footer */
 footer {
-    background-color: #1F2A38 !important;
+    background-color: #132B26 !important;
     color: #C9B9A9;
 }
 
 footer a {
-    color: #D4A017;
+    color: #D4A53B;
 }
 
-/* Małe poprawki czytelności */
+footer a:hover {
+    color: #F8F5EF;
+}
+
+/* Czytelność treści */
 .post-content {
-    line-height: 1.75;
-    font-size: 1.05rem;
+    line-height: 1.78;
+    font-size: 1.06rem;
 }
 
-/* Akcenty na buttonach i linkach w menu dropdown */
+/* Dropdown menu */
 .dropdown-menu {
-    background-color: #1F2A38;
+    background-color: #132B26;
+}
+
+.dropdown-item {
+    color: #F8F5EF;
 }
 
 .dropdown-item:hover {
-    background-color: #2C5F95;
+    background-color: #1A3C35;
     color: white;
 }
