@@ -13,11 +13,15 @@ author: Tarot Cathedral
 ###############################################
 navbar-links:
   Home: ""
-  About: "about"
   Blog: "blog"
-  Resources: 
-    - Tarot de Marseille: "tarot-de-marseille"
-    - Numerology: "numerology"
+  About: "about"
+  Tags: "tags"
+  Meanings: 
+    - Major Arcana: "major-arcana"
+    - Wands: "wands"
+    - Swords: "swords"
+    - Coins: "coins"
+    - Chalices: "chalices"
 
 ################
 # --- Logo --- #
