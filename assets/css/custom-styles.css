@@ -1,35 +1,29 @@
-/* === Tarot Cathedral – Butelkowa Zieleń + Malina v2 === */
+/* === Tarot Cathedral – Butelkowa Zieleń + Malina (spójna wersja) === */
 
 body {
-    background-color: #F6F1E6 !important;     /* jaśniejsze, bardziej beżowe tło */
+    background-color: #F6F1E6 !important;     /* ciepłe beżowe tło */
     color: #2C2C2C;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
-/* Nagłówki i tytuły postów */
-h1, h2, h3, .page-title {
-    color: #1A3C35 !important;                /* butelkowa zieleń */
-    font-weight: 700;
-}
-
-/* Wszystkie linki - malinowe */
-a {
+/* Wszystkie główne akcenty malinowe #9B2A4C */
+h1, h2, h3, .page-title,
+a,
+.post-content a,
+a.more-link,
+.navbar a:hover,
+footer a {
     color: #9B2A4C !important;
 }
 
-a:hover {
-    color: #C14A6A !important;
-}
-
-/* "Czytaj dalej" link */
-.post-content a[href*="read-more"], 
-.post-excerpt a,
-a.more-link {
-    color: #9B2A4C !important;
-}
-
-a.more-link:hover {
-    color: #C14A6A !important;
+/* Hover – wszystkie malinowe elementy zmieniają się na żółty */
+a:hover,
+.post-content a:hover,
+a.more-link:hover,
+.navbar a:hover,
+footer a:hover,
+.dropdown-item:hover {
+    color: #D4A53B !important;        /* złoty żółty hover */
 }
 
 /* Nawigacja */
@@ -37,12 +31,8 @@ a.more-link:hover {
     background-color: #132B26 !important;
 }
 
-.navbar a, .navbar .nav-link {
+.navbar a {
     color: #F6F1E6 !important;
-}
-
-.navbar a:hover {
-    color: #E8B9C9 !important;                 /* jasniejszy malinowy hover */
 }
 
 /* Dropdown menu (Meanings) */
@@ -56,12 +46,12 @@ a.more-link:hover {
 
 .dropdown-item:hover {
     background-color: #1A3C35 !important;
-    color: #F6F1E6 !important;
+    color: #D4A53B !important;
 }
 
-/* Tytuł posta */
+/* Tytuł posta – malinowy */
 .page-title {
-    color: #1A3C35 !important;
+    color: #9B2A4C !important;
     text-shadow: none;
     font-size: 2.75rem;
     margin-bottom: 12px;
@@ -81,11 +71,7 @@ footer {
 }
 
 footer a {
-    color: #E8B9C9 !important;                 /* malinowy w footerze */
-}
-
-footer a:hover {
-    color: #F6F1E6 !important;
+    color: #9B2A4C !important;
 }
 
 /* Czytelność treści */
