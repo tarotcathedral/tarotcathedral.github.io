@@ -1,5 +1,5 @@
 ---
 layout: page
 title: My art
-permalink: /art/
+permalink: /my art/
 ---
