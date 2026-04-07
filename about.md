@@ -6,7 +6,7 @@ permalink: /about/
 
 **Short bio:**
 
-**Nationality:** 🇵🇱
+**Nationality:** 🇵🇱 <br>
 **Gender:** female
 **Zodiac Sign (tropical):** Aries
 **Hobby:** Tarot de Marseille, true crime, art
