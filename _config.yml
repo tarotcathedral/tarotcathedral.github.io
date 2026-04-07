@@ -12,9 +12,8 @@ author: Tarot Cathedral
 # --- Navigation bar links --- #
 ###############################################
 navbar-links:
-  Home: ""
+  Home: "/"
   Blog: "blog"
-  About: "about"
   Tags: "tags"
   Meanings: 
     - Major Arcana: "major-arcana"
@@ -22,6 +21,7 @@ navbar-links:
     - Swords: "swords"
     - Coins: "coins"
     - Chalices: "chalices"
+  About: "about"
 
 ################
 # --- Logo --- #
