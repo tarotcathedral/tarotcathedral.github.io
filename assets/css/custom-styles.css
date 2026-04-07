@@ -1,12 +1,11 @@
-/* === Tarot Cathedral – Butelkowa Zieleń + Malina (wersja finalna) === */
+/* === Tarot Cathedral – Finalna wersja (z poprawionym dropdown) === */
 
 body {
     background-color: #F6F1E6 !important;
     color: #2C2C2C;
-    font-family: Georgia, 'Times New Roman', serif;
 }
 
-/* Wszystkie główne akcenty malinowe */
+/* Główny malinowy akcent */
 h1, h2, h3, .page-title,
 a,
 .post-content a,
@@ -16,7 +15,7 @@ footer a {
     color: #9B2A4C !important;
 }
 
-/* Hover – żółty na malinowych elementach */
+/* Hover → żółty */
 a:hover,
 .post-content a:hover,
 a.more-link:hover,
@@ -25,7 +24,7 @@ footer a:hover {
     color: #D4A53B !important;
 }
 
-/* Nawigacja główna */
+/* Nawigacja */
 .navbar {
     background-color: #132B26 !important;
 }
@@ -34,25 +33,30 @@ footer a:hover {
     color: #F6F1E6 !important;
 }
 
-/* ==================== DROPDOWN MENU ==================== */
+/* ==================== POPRAWKA DLA DROPDOWN MENU ==================== */
+
+.navbar-custom .nav-item.dropdown .dropdown-menu,
 .dropdown-menu {
     background-color: #1A3C35 !important;     /* ciemna butelkowa zieleń */
-    border: 1px solid #132B26;
+    border-color: #132B26 !important;
 }
 
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item,
 .dropdown-item {
-    color: #F6F1E6 !important;                /* jasny tekst */
+    background-color: #1A3C35 !important;
+    color: #F6F1E6 !important;
+    padding: 0.625rem 1.25rem !important;
 }
 
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:hover,
 .dropdown-item:hover {
-    background-color: #132B26 !important;     /* ciemniejsza zieleń przy hover */
-    color: #D4A53B !important;                /* żółty hover - zostawiamy */
+    background-color: #132B26 !important;
+    color: #D4A53B !important;
 }
 
 /* Tytuł posta */
 .page-title {
     color: #9B2A4C !important;
-    text-shadow: none;
     font-size: 2.75rem;
     margin-bottom: 12px;
 }
@@ -67,7 +71,6 @@ footer a:hover {
 /* Footer */
 footer {
     background-color: #132B26 !important;
-    color: #C9B9A9;
 }
 
 footer a {
@@ -78,7 +81,7 @@ footer a:hover {
     color: #D4A53B !important;
 }
 
-/* Czytelność treści */
+/* Czytelność */
 .post-content {
     line-height: 1.78;
     font-size: 1.07rem;
