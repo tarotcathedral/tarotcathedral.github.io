@@ -1,24 +1,35 @@
-/* === Tarot Cathedral – Butelkowa Zieleń + Malina === */
+/* === Tarot Cathedral – Butelkowa Zieleń + Malina v2 === */
 
 body {
-    background-color: #F8F5EF !important;
+    background-color: #F6F1E6 !important;     /* jaśniejsze, bardziej beżowe tło */
     color: #2C2C2C;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
 /* Nagłówki i tytuły postów */
 h1, h2, h3, .page-title {
-    color: #1A3C35 !important;        /* butelkowa zieleń */
+    color: #1A3C35 !important;                /* butelkowa zieleń */
     font-weight: 700;
 }
 
-/* Linki */
+/* Wszystkie linki - malinowe */
 a {
-    color: #9B2A4C;                   /* malinowy */
+    color: #9B2A4C !important;
 }
 
 a:hover {
-    color: #C14A6A;
+    color: #C14A6A !important;
+}
+
+/* "Czytaj dalej" link */
+.post-content a[href*="read-more"], 
+.post-excerpt a,
+a.more-link {
+    color: #9B2A4C !important;
+}
+
+a.more-link:hover {
+    color: #C14A6A !important;
 }
 
 /* Nawigacja */
@@ -27,11 +38,25 @@ a:hover {
 }
 
 .navbar a, .navbar .nav-link {
-    color: #F8F5EF !important;
+    color: #F6F1E6 !important;
 }
 
 .navbar a:hover {
-    color: #D4A53B !important;        /* subtelne złoto */
+    color: #E8B9C9 !important;                 /* jasniejszy malinowy hover */
+}
+
+/* Dropdown menu (Meanings) */
+.dropdown-menu {
+    background-color: #132B26 !important;
+}
+
+.dropdown-item {
+    color: #F6F1E6 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #1A3C35 !important;
+    color: #F6F1E6 !important;
 }
 
 /* Tytuł posta */
@@ -56,29 +81,15 @@ footer {
 }
 
 footer a {
-    color: #D4A53B;
+    color: #E8B9C9 !important;                 /* malinowy w footerze */
 }
 
 footer a:hover {
-    color: #F8F5EF;
+    color: #F6F1E6 !important;
 }
 
 /* Czytelność treści */
 .post-content {
     line-height: 1.78;
-    font-size: 1.06rem;
-}
-
-/* Dropdown menu */
-.dropdown-menu {
-    background-color: #132B26;
-}
-
-.dropdown-item {
-    color: #F8F5EF;
-}
-
-.dropdown-item:hover {
-    background-color: #1A3C35;
-    color: white;
+    font-size: 1.07rem;
 }
