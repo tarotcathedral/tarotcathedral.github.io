@@ -20,8 +20,8 @@ navbar-links:
     - Coins: "coins"
     - Chalices: "chalices"
   Blog: "blog"
-  My art: "my art"
   Tags: "tags"
+  My art: "my art"
   About: "about"
 
 ################
