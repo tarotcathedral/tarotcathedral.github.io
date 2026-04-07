@@ -1,4 +1,4 @@
-/* === Tarot Cathedral – Finalna wersja (z poprawionym dropdown) === */
+/* === Tarot Cathedral – Finalna wersja (z malinowym borderem dropdown) === */
 
 body {
     background-color: #F6F1E6 !important;
@@ -24,7 +24,7 @@ footer a:hover {
     color: #D4A53B !important;
 }
 
-/* Nawigacja */
+/* Nawigacja główna */
 .navbar {
     background-color: #132B26 !important;
 }
@@ -33,19 +33,21 @@ footer a:hover {
     color: #F6F1E6 !important;
 }
 
-/* ==================== POPRAWKA DLA DROPDOWN MENU ==================== */
+/* ==================== DROPDOWN MENU ==================== */
 
 .navbar-custom .nav-item.dropdown .dropdown-menu,
 .dropdown-menu {
-    background-color: #1A3C35 !important;     /* ciemna butelkowa zieleń */
-    border-color: #132B26 !important;
+    background-color: #1A3C35 !important;           /* ciemna butelkowa zieleń */
+    border: 2px solid #9B2A4C !important;           /* MALINOWY BORDER */
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item,
 .dropdown-item {
     background-color: #1A3C35 !important;
     color: #F6F1E6 !important;
-    padding: 0.625rem 1.25rem !important;
+    padding: 0.75rem 1.25rem !important;
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:hover,
@@ -81,7 +83,7 @@ footer a:hover {
     color: #D4A53B !important;
 }
 
-/* Czytelność */
+/* Czytelność treści */
 .post-content {
     line-height: 1.78;
     font-size: 1.07rem;
