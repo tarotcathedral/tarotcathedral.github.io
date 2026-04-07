@@ -1,50 +1,50 @@
-/* === Tarot Cathedral – Final Clean Fonts & Colors === */
+/* ============================================================
+   TAROT CATHEDRAL - OFFICIAL STYLESHEET
+   Colors: Brown (#3D2B1F), Beige (#FDF8ED), Blue (#2A829D)
+   Fonts: Bree Serif (H1), Lora (H2/H3), Open Sans (Body)
+   ============================================================ */
 
-/* Import czcionek: Bree (H1), Lora (H2, H3), Open Sans (Body) */
+/* 1. IMPORTY (Czcionki i Ikony) */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora:ital,wght@0,600;1,600&family=Open+Sans:wght@400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
+/* 2. BAZA I TYPOGRAFIA GŁÓWNA */
 body {
     background-color: #FDF8ED !important;
     color: #3D2B1F;
     font-family: 'Open Sans', sans-serif !important;
+    line-height: 1.85 !important; /* Zwiększony oddech tekstu */
+    letter-spacing: 0.01rem;
 }
 
-/* --- Typografia Nagłówków --- */
-
-/* Tytuł główny strony i postów */
+/* Tytuły (Bree Serif) */
 h1, .page-title, .navbar-brand {
     font-family: 'Bree Serif', serif !important;
     font-weight: 400 !important;
     color: #3D2B1F !important;
+    text-align: left;
 }
 
-/* Pozostałe nagłówki */
+/* Nagłówki i Podtytuły (Lora) */
 h2, h3, h4, .post-subtitle {
     font-family: 'Lora', serif !important;
     font-weight: 600 !important;
     color: #3D2B1F !important;
+    text-align: left;
 }
 
-/* --- Linki i Interakcje (Błękit Witrażowy) --- */
-
-a, 
-.post-content a, 
-a.more-link, 
-footer a {
+/* 3. LINKI I INTERAKCJE */
+a, .post-content a, a.more-link, footer a {
     color: #2A829D !important;
     transition: color 0.3s ease;
 }
 
-a:hover, 
-.post-content a:hover, 
-a.more-link:hover, 
-footer a:hover {
+a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
     color: #34A0C1 !important;
     text-decoration: none;
 }
 
-/* --- Nawigacja --- */
-
+/* 4. NAWIGACJA (NAVBAR) */
 .navbar {
     background-color: #3D2B1F !important; 
     border-bottom: 2px solid #2A829D !important;
@@ -56,13 +56,11 @@ footer a:hover {
     font-weight: 500;
 }
 
-/* Niebieski hover dla linków w menu głównym */
 .navbar a:hover {
     color: #2A829D !important;
 }
 
-/* --- Dropdown Menu (Poprawione hovery) --- */
-
+/* Dropdown Menu */
 .navbar-custom .nav-item.dropdown .dropdown-menu,
 .dropdown-menu {
     background-color: #4D392C !important;
@@ -84,11 +82,13 @@ footer a:hover {
     color: #2A829D !important; 
 }
 
-/* --- Układ Postów (Wyrównanie do lewej) --- */
+.navbar-custom .navbar-collapse {
+    border: none !important;
+}
 
+/* 5. LISTA POSTÓW I UKŁAD (LAYOUT) */
 .page-title {
     font-size: 3.2rem;
-    text-align: left;
     margin-bottom: 15px;
 }
 
@@ -96,18 +96,50 @@ footer a:hover {
     color: #6D5A4D;
     font-style: italic;
     font-size: 1.4rem;
-    text-align: left;
     margin-bottom: 25px;
 }
 
-.post-content {
-    line-height: 1.8;
-    font-size: 1.1rem;
-    text-align: left;
+/* Odstępy między zapowiedziami postów */
+.post-preview {
+    margin-bottom: 60px !important;
+    padding-bottom: 20px;
 }
 
-/* --- Stopka --- */
+.post-content {
+    font-size: 1.1rem;
+}
 
+.post-content p {
+    margin-bottom: 1.8rem !important; /* Przerwy między akapitami */
+}
+
+/* 6. TAGI I PRZYCISKI */
+.btn-primary, .tag-btn, .post-tag {
+    background-color: #2A829D !important;
+    border-color: #2A829D !important;
+    color: #FFFFFF !important;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover, .tag-btn:hover, .post-tag:hover,
+.btn-primary:focus, .btn-primary:active {
+    background-color: #34A0C1 !important;
+    border-color: #34A0C1 !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.tag-btn a, .post-tag a {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
+.tag-count {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* 7. STOPKA (FOOTER) */
 footer {
     background-color: #3D2B1F !important;
     color: #FDF8ED !important;
@@ -115,44 +147,26 @@ footer {
     padding: 30px 0;
 }
 
-/* --- Sprzątanie --- */
-.navbar-custom .navbar-collapse {
-    border: none !important;
+/* Kolory ikon społecznościowych */
+footer .fa-circle {
+    color: #4D392C !important;
 }
 
-/* === Tarot Cathedral – Poprawka Tagów i Buttonów === */
-
-/* Główny kolor przycisków tagów */
-.btn-primary, 
-.tag-btn,
-.post-tag {
-    background-color: #2A829D !important;
-    border-color: #2A829D !important;
-    color: #FFFFFF !important; /* Wymuszenie białego tekstu */
-    font-family: 'Open Sans', sans-serif;
-    transition: all 0.3s ease;
+footer .fa-inverse {
+    color: #FDF8ED !important;
 }
 
-/* Stan po najechaniu na przycisk tagu */
-.btn-primary:hover, 
-.tag-btn:hover,
-.post-tag:hover,
-.btn-primary:focus,
-.btn-primary:active {
-    background-color: #34A0C1 !important; /* Jaśniejszy błękit */
-    border-color: #34A0C1 !important;
-    color: #FFFFFF !important; /* Tekst zostaje biały */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+footer a:hover .fa-circle {
+    color: #2A829D !important;
 }
 
-/* Poprawka dla tekstu wewnątrz tagów (jeśli szablon ma specyficzne klasy) */
-.tag-btn a,
-.post-tag a {
-    color: #FFFFFF !important;
-    text-decoration: none !important;
-}
-
-/* Licznik postów przy tagu (jeśli występuje w nawiasie) */
-.tag-count {
-    color: rgba(255, 255, 255, 0.8) !important;
+/* 8. MEDIA QUERIES (Wersja Mobilna) */
+@media only screen and (max-width: 767px) {
+    .post-preview {
+        margin-bottom: 80px !important; /* Więcej miejsca na telefonie */
+    }
+    
+    .page-title {
+        font-size: 2.4rem !important;
+    }
 }
