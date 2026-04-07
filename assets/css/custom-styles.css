@@ -4,16 +4,15 @@
    Fonts: Bree Serif (H1), Lora (H2/H3), Open Sans (Body)
    ============================================================ */
 
-/* 1. IMPORTY (Czcionki i Ikony) */
+/* 1. IMPORT CZCIONEK */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora:ital,wght@0,600;1,600&family=Open+Sans:wght@400;500&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
 /* 2. BAZA I TYPOGRAFIA GŁÓWNA */
 body {
     background-color: #FDF8ED !important;
     color: #3D2B1F;
     font-family: 'Open Sans', sans-serif !important;
-    line-height: 1.85 !important; /* Zwiększony oddech tekstu */
+    line-height: 1.85 !important;
     letter-spacing: 0.01rem;
 }
 
@@ -33,7 +32,7 @@ h2, h3, h4, .post-subtitle {
     text-align: left;
 }
 
-/* 3. LINKI I INTERAKCJE */
+/* 3. LINKI I INTERAKCJE (Błękit Witrażowy) */
 a, .post-content a, a.more-link, footer a {
     color: #2A829D !important;
     transition: color 0.3s ease;
@@ -86,7 +85,7 @@ a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
     border: none !important;
 }
 
-/* 5. LISTA POSTÓW I UKŁAD (LAYOUT) */
+/* 5. LISTA POSTÓW I ODDECH (LAYOUT) */
 .page-title {
     font-size: 3.2rem;
     margin-bottom: 15px;
@@ -99,7 +98,7 @@ a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
     margin-bottom: 25px;
 }
 
-/* Odstępy między zapowiedziami postów */
+/* Odstępy między zapowiedziami postów na głównej */
 .post-preview {
     margin-bottom: 60px !important;
     padding-bottom: 20px;
@@ -110,7 +109,7 @@ a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
 }
 
 .post-content p {
-    margin-bottom: 1.8rem !important; /* Przerwy między akapitami */
+    margin-bottom: 1.8rem !important;
 }
 
 /* 6. TAGI I PRZYCISKI */
@@ -147,7 +146,7 @@ footer {
     padding: 30px 0;
 }
 
-/* Kolory ikon społecznościowych */
+/* Ikonki w stopce */
 footer .fa-circle {
     color: #4D392C !important;
 }
@@ -160,10 +159,10 @@ footer a:hover .fa-circle {
     color: #2A829D !important;
 }
 
-/* 8. MEDIA QUERIES (Wersja Mobilna) */
+/* 8. WERSJA MOBILNA (MOBILE ODDECH) */
 @media only screen and (max-width: 767px) {
     .post-preview {
-        margin-bottom: 80px !important; /* Więcej miejsca na telefonie */
+        margin-bottom: 80px !important;
     }
     
     .page-title {
