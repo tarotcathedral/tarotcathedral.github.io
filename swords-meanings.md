@@ -43,7 +43,7 @@ A **blue sword** held by the Hand of God (Manus Dei), topped with a crown and la
 - **Work:** Appointment to a position, receiving a tool of power (e.g., a signature, a seal, an order).
 - **Person:** Someone who has just received real power to act and decide.
 
-![2 of swords](https://beautifuljekyll.com/assets/img/swords-2.jpg){: .mx-auto.d-block :}
+![2 of swords](/assets/img/swords-2.jpg){: .mx-auto.d-block :}
 
 ### 2 of Swords - Balance
 
@@ -55,7 +55,7 @@ A very complex, multicolored flower in the center of two scimitars.
 - **Work:** A diplomatic agreement, a high-level alliance.
 - **Person:** A diplomatic person who can combine strength with beauty and harmony.
 
-![3 of swords](https://beautifuljekyll.com/assets/img/swords-3.jpg){: .mx-auto.d-block :}
+![3 of swords](/assets/img/swords-3.jpg){: .mx-auto.d-block :}
 
 ### 3 of Swords - Piercing
 
@@ -75,7 +75,7 @@ A **flesh-colored sword** pierces two crossed gold branches.
 - **Work:** A difficult decision where someone must "pierce" through their own current position or loyalty.
 - **Person:** A person who wounds themselves to cut through something important - brave but suffering.
 
-![4 of swords](https://beautifuljekyll.com/assets/img/swords-4.jpg){: .mx-auto.d-block :}
+![4 of swords](/assets/img/swords-4.jpg){: .mx-auto.d-block :}
 
 ### 4 of Swords - Suspension
 
@@ -87,7 +87,7 @@ A simple, neutral blue flower with a red center. There no additional sword - no 
 - **Work:** A tactical break, reorganization of forces.
 - **Person:** Someone who knows how to take a strategic pause.
 
-![5 of swords](https://beautifuljekyll.com/assets/img/swords-5.jpg){: .mx-auto.d-block :}
+![5 of swords](/assets/img/swords-5.jpg){: .mx-auto.d-block :}
 
 ### 5 of Swords - Rivalry
 
@@ -99,7 +99,7 @@ Five scimitars + a central flesh-colored sword.
 - **Work:** Conflict in a team or among equal colleagues - fighting for a better spot or recognition.
 - **Person:** An ambitious person fighting for their position, often at the cost of relationships.
 
-![6 of swords](https://beautifuljekyll.com/assets/img/swords-6.jpg){: .mx-auto.d-block :}
+![6 of swords](/assets/img/swords-6.jpg){: .mx-auto.d-block :}
 
 ### 6 of Swords - Withdrawal
 
@@ -111,7 +111,7 @@ A red flower, similar to the one from 4 of Swords, but this one is more red.
 - **Work:** Strategic withdrawal or changing the field of operation.
 - **Person:** Someone who knows how to elegantly change course.
 
-![7 of swords](https://beautifuljekyll.com/assets/img/swords-7.jpg){: .mx-auto.d-block :}
+![7 of swords](/assets/img/swords-7.jpg){: .mx-auto.d-block :}
 
 ### 7 of Swords - Tactics
 
@@ -123,7 +123,7 @@ A blue, ordinary sword in the center.
 - **Work:** Behind-the-scenes diplomacy, intrigues, defending one’s position.
 - **Person:** A cunning tactician who acts cleverly, but not necessarily "cleanly."
 
-![8 of swords](https://beautifuljekyll.com/assets/img/swords-8.jpg){: .mx-auto.d-block :}
+![8 of swords](/assets/img/swords-8.jpg){: .mx-auto.d-block :}
 
 ### 8 of Swords - Restriction
 
@@ -135,7 +135,7 @@ A very small blue cornflower head - almost lost among the swords.
 - **Work:** Rigid structures, excess of rules and control, feeling tied down.
 - **Person:** Someone who feels restricted by their own rules or the system.
 
-![9 of swords](https://beautifuljekyll.com/assets/img/swords-9.jpg){: .mx-auto.d-block :}
+![9 of swords](/assets/img/swords-9.jpg){: .mx-auto.d-block :}
 
 ### 9 of Swords - Breaking
 
@@ -147,7 +147,7 @@ A **gold sword** - broken.
 - **Work:** Fall of authority, broken professional pride.
 - **Person:** A person whose internal power and strength have been broken.
 
-![10 of swords](https://beautifuljekyll.com/assets/img/swords-10.jpg){: .mx-auto.d-block :}
+![10 of swords](/assets/img/swords-10.jpg){: .mx-auto.d-block :}
 
 ### 10 of Swords - The Fall
 
@@ -173,7 +173,7 @@ This suit ends tragically. If the **9 and 10** represent any kind of completenes
 
 ## Swords Court Cards - interpretation, meanings and symbols
 
-![valet.jpg](attachment:603857b9-8738-4d73-a72c-165f530734f5:valet.jpg)
+![Valet of swords](/assets/img/swords-valet.jpg){: .mx-auto.d-block :}
 
 ### Page of Swords - Idealism
 
@@ -185,7 +185,7 @@ A **gold sword** + a **red wooden staff**.
 - **Work:** A young official who combines honor with a fiery temperament.
 - **Person:** A young person with noble ambitions, having both glow (gold) and fire (red).
 
-![cavalier.jpg](attachment:445eb9f0-d2fc-4299-ab4b-8b59c7f20775:cavalier.jpg)
+![Knight of swords](/assets/img/swords-knight.jpg){: .mx-auto.d-block :}
 
 ### Knight of Swords - Charge
 
@@ -197,7 +197,7 @@ A sword of an undefined color (the color of the background on Grimaud and pale/g
 - **Work:** An officer who acts fast and decisively but without true authority.
 - **Person:** A man of action - fast, brave, but his power feels faded or without deeper meaning.
 
-![queen.jpg](attachment:d24cef4e-4f2c-4787-9aeb-ff45c984afc7:queen.jpg)
+![Queen of swords](/assets/img/swords-queen.jpg){: .mx-auto.d-block :}
 
 ### Queen of Swords - Anger
 
@@ -209,7 +209,7 @@ A **red sword** (very unusual!).
 - **Work:** A woman in a high position who rules with temperament (often seen as "sharp").
 - **Person:** An intelligent, sharp woman with a strong, hot temperament - her "cut" is memorable.
 
-![king.jpg](attachment:3ac570bf-447c-4975-8e8b-a03198dc6e29:king.jpg)
+![King of swords](/assets/img/swords-king.jpg){: .mx-auto.d-block :}
 
 ### King of Swords - Experience
 
