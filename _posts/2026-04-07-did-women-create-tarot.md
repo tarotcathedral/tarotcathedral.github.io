@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Did women create Tarot?
-subtitle: I’ve had a sudden realization about Tarot 
+subtitle: The feminine, heretical roots of the Tarot
 share-img: ""
 tags: [history]
 ---
