@@ -39,13 +39,10 @@ round-avatar: true
 # --- Footer social media links --- #
 #####################################
 social-network-links:
-  email: "twoj.email@przyklad.pl"          # ← zmień na swój
   rss: true
-  instagram: twoj_instagram                 # ← zmień lub usuń
-  pinterest: twoj_pinterest                 # bardzo przydatne przy tarocie
   # facebook: twoj_facebook
   # youtube: twoj_kanal
-  threads: "https://www.threads.com/@tarotcathedral"
+  threads: https://www.threads.com/@tarotcathedral
 
 ###########################
 # --- General options --- #
