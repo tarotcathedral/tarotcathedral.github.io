@@ -54,9 +54,14 @@ footer a:hover {
     color: #D4A53B !important;
 }
 
+/* ==================== USUWA BRĄZOWE KRESKI Z MENU ==================== */
 
 .navbar-custom .navbar-collapse {
         border-top: none !important;
+    }
+
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
+        border: none !important;
     }
 
 /* Tytuł posta */
