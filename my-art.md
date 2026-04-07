@@ -8,7 +8,7 @@ permalink: /my art/
 
 ![Ten of wands](/assets/img/10-wands-my.jpeg){: .mx-auto.d-block :}
 
-![Ace of Wands compared to Fournier](/assets/img/ace-wands-my-comparision.jpg){: .mx-auto.d-block :}
+![Ace of Wands compared to Fournier](/assets/img/ace-wands-my-comparision.jpeg){: .mx-auto.d-block :}
 
-![Ace of Wands done](/assets/img/ace-wands-my.jpg){: .mx-auto.d-block :}
+![Ace of Wands done](/assets/img/ace-wands-my.jpeg){: .mx-auto.d-block :}
 
