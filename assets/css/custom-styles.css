@@ -1,98 +1,110 @@
-/* === Tarot Cathedral – Finalna wersja (z poprawionym dropdown) === */
+/* === Tarot Cathedral – Mystic & Solemn (Brown-Beige-Blue) === */
+
+/* Import czcionek: Cormorant Garamond do nagłówków, Montserrat do tekstu */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Montserrat:wght@400;500&display=swap');
 
 body {
-    background-color: #F6F1E6 !important;
-    color: #2C2C2C;
+    background-color: #FDF8ED !important; /* Odcień starego papieru z ryciny */
+    color: #3D2B1F; /* Ciemny brąz ryciny zamiast czerni */
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Główny malinowy akcent */
-h1, h2, h3, .page-title,
-a,
-.post-content a,
-a.more-link,
-.navbar a:hover,
+/* --- Typografia --- */
+
+h1, h2, h3, .page-title, .navbar-brand {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 600 !important;
+    color: #3D2B1F !important; /* Brązowy dla powagi */
+}
+
+/* Kolor dla linków i głównych akcentów (Błękit Witrażowy) */
+a, 
+.post-content a, 
+a.more-link, 
+.navbar a:hover, 
 footer a {
-    color: #9B2A4C !important;
+    color: #2A829D !important; 
 }
 
-/* Hover → żółty */
-a:hover,
-.post-content a:hover,
-a.more-link:hover,
-.navbar a:hover,
+/* Hover → Złoty odcień z witraża */
+a:hover, 
+.post-content a:hover, 
+a.more-link:hover, 
 footer a:hover {
     color: #D4A53B !important;
+    text-decoration: none;
 }
 
-/* Nawigacja */
+/* --- Nawigacja (Ciemny Brąz Ryciny) --- */
+
 .navbar {
-    background-color: #132B26 !important;
+    background-color: #3D2B1F !important; 
+    border-bottom: 2px solid #D4A53B !important; /* Złoty pasek pod menu */
 }
 
 .navbar a {
-    color: #F6F1E6 !important;
+    color: #FDF8ED !important; /* Beżowy tekst na brązowym tle */
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 
-/* ==================== POPRAWKA DLA DROPDOWN MENU ==================== */
+/* --- Dropdown Menu (Poprawione kolory) --- */
 
 .navbar-custom .nav-item.dropdown .dropdown-menu,
 .dropdown-menu {
-    background-color: #1A3C35 !important;     /* ciemna butelkowa zieleń */
-    border-color: #132B26 !important;
+    background-color: #4D392C !important; /* Nieco jaśniejszy brąz */
+    border: 1px solid #D4A53B !important;
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item,
 .dropdown-item {
-    background-color: #1A3C35 !important;
-    color: #F6F1E6 !important;
-    padding: 0.625rem 1.25rem !important;
+    background-color: #4D392C !important;
+    color: #FDF8ED !important;
+    padding: 10px 20px !important;
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:hover,
 .dropdown-item:hover {
-    background-color: #132B26 !important;
+    background-color: #3D2B1F !important;
     color: #D4A53B !important;
 }
 
-/* ==================== USUWA BRĄZOWE KRESKI Z MENU ==================== */
+/* --- Posty --- */
 
-.navbar-custom .navbar-collapse {
-        border-top: none !important;
-    }
-
-.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-        border: none !important;
-    }
-
-/* Tytuł posta */
 .page-title {
-    color: #9B2A4C !important;
-    font-size: 2.75rem;
-    margin-bottom: 12px;
+    font-size: 3.5rem; /* Większy, katedralny tytuł */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Subtitle */
 .post-subtitle {
-    color: #555;
+    color: #6D5A4D; /* Przygaszony brąz */
+    font-family: 'Cormorant Garamond', serif;
     font-style: italic;
-    font-size: 1.32rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-/* Footer */
+.post-content {
+    line-height: 1.8;
+    font-size: 1.15rem;
+    text-align: justify;
+}
+
+/* --- Footer --- */
+
 footer {
-    background-color: #132B26 !important;
+    background-color: #3D2B1F !important;
+    color: #FDF8ED !important;
+    border-top: 2px solid #D4A53B !important;
+    padding: 30px 0;
 }
 
 footer a {
-    color: #9B2A4C !important;
+    color: #2A829D !important;
 }
 
-footer a:hover {
-    color: #D4A53B !important;
-}
-
-/* Czytelność */
-.post-content {
-    line-height: 1.78;
-    font-size: 1.07rem;
+/* --- Usunięcie zbędnych obramowań --- */
+.navbar-custom .navbar-collapse {
+    border: none !important;
 }
