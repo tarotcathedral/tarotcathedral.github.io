@@ -155,15 +155,11 @@ A **gold sword** - broken.
 
 Two blue swords (crossed). One of them is broken. They are stuck between the other swords. 
 
-**General**: The final cut, but made with a damaged tool. Power, law, or strength strikes, but it is already broken itself. A cycle ends, but not with glory or total defeat - it ends in a damaged and incomplete way, with a sense of loss on both sides. It is not an elegant ending, it is a painful and imperfect closure.
-
-**Love**: A definitive end to a relationship, but in a way that leaves scars. A breakup where someone (or both people) ends up hurt or broken. A "victory" for one side comes at the cost of being damaged.
-
-**Money**: The total closure of a financial matter, but with a feeling of loss or injustice. An inheritance, a divorce settlement, bankruptcy, or a broken contract after which something stays "broken" forever.
-
-**Work**: A fall from a position or the end of a career stage in a painful and messy way. Possible job loss, reorganization, or a failure where the power structure itself is damaged. "I won, but at the cost of my own sword."
-
-**Person**: Someone who has gone through a final battle and came out of it broken - either physically or in terms of status and honor. It can also be a person who "won," but the victory left them with permanent damage.
+- **General**: The final cut, but made with a damaged tool. Power, law, or strength strikes, but it is already broken itself. A cycle ends, but not with glory or total defeat - it ends in a damaged and incomplete way, with a sense of loss on both sides. It is not an elegant ending, it is a painful and imperfect closure.
+- **Love**: A definitive end to a relationship, but in a way that leaves scars. A breakup where someone (or both people) ends up hurt or broken. A "victory" for one side comes at the cost of being damaged.
+- **Money**: The total closure of a financial matter, but with a feeling of loss or injustice. An inheritance, a divorce settlement, bankruptcy, or a broken contract after which something stays "broken" forever.
+- **Work**: A fall from a position or the end of a career stage in a painful and messy way. Possible job loss, reorganization, or a failure where the power structure itself is damaged. "I won, but at the cost of my own sword."
+- **Person**: Someone who has gone through a final battle and came out of it broken - either physically or in terms of status and honor. It can also be a person who "won," but the victory left them with permanent damage.
 
 ---
 
