@@ -45,6 +45,7 @@ social-network-links:
   pinterest: twoj_pinterest                 # bardzo przydatne przy tarocie
   # facebook: twoj_facebook
   # youtube: twoj_kanal
+  threads: "https://www.threads.com/@tarotcathedral"
 
 ###########################
 # --- General options --- #

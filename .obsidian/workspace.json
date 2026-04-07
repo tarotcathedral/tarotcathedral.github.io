@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my-art.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Linki zwrotne do my-art"
+              "title": "Linki zwrotne"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my-art.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Łącza wychodzące od my-art"
+              "title": "Łącza wychodzące"
             }
           },
           {
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my-art.md",
+                "file": "aboutme.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Konspekt my-art"
+              "title": "Konspekt aboutme"
             }
           }
         ]
@@ -183,8 +181,9 @@
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "f37636fb3f8a829d",
+  "active": "1a96d7d314426779",
   "lastOpenFiles": [
+    "my-art.md",
     "_posts/2026-04-07-testowanie.md",
     "_posts/2026-04-07-i-have-tarot-fomo.md",
     "_posts/2026-04-07-test.md"
