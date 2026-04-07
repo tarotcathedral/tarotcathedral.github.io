@@ -1,12 +1,12 @@
-/* === Tarot Cathedral – Butelkowa Zieleń + Malina (spójna wersja) === */
+/* === Tarot Cathedral – Butelkowa Zieleń + Malina (wersja finalna) === */
 
 body {
-    background-color: #F6F1E6 !important;     /* ciepłe beżowe tło */
+    background-color: #F6F1E6 !important;
     color: #2C2C2C;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
-/* Wszystkie główne akcenty malinowe #9B2A4C */
+/* Wszystkie główne akcenty malinowe */
 h1, h2, h3, .page-title,
 a,
 .post-content a,
@@ -16,17 +16,16 @@ footer a {
     color: #9B2A4C !important;
 }
 
-/* Hover – wszystkie malinowe elementy zmieniają się na żółty */
+/* Hover – żółty na malinowych elementach */
 a:hover,
 .post-content a:hover,
 a.more-link:hover,
 .navbar a:hover,
-footer a:hover,
-.dropdown-item:hover {
-    color: #D4A53B !important;        /* złoty żółty hover */
+footer a:hover {
+    color: #D4A53B !important;
 }
 
-/* Nawigacja */
+/* Nawigacja główna */
 .navbar {
     background-color: #132B26 !important;
 }
@@ -35,21 +34,22 @@ footer a:hover,
     color: #F6F1E6 !important;
 }
 
-/* Dropdown menu (Meanings) */
+/* ==================== DROPDOWN MENU ==================== */
 .dropdown-menu {
-    background-color: #132B26 !important;
+    background-color: #1A3C35 !important;     /* ciemna butelkowa zieleń */
+    border: 1px solid #132B26;
 }
 
 .dropdown-item {
-    color: #F6F1E6 !important;
+    color: #F6F1E6 !important;                /* jasny tekst */
 }
 
 .dropdown-item:hover {
-    background-color: #1A3C35 !important;
-    color: #D4A53B !important;
+    background-color: #132B26 !important;     /* ciemniejsza zieleń przy hover */
+    color: #D4A53B !important;                /* żółty hover - zostawiamy */
 }
 
-/* Tytuł posta – malinowy */
+/* Tytuł posta */
 .page-title {
     color: #9B2A4C !important;
     text-shadow: none;
@@ -72,6 +72,10 @@ footer {
 
 footer a {
     color: #9B2A4C !important;
+}
+
+footer a:hover {
+    color: #D4A53B !important;
 }
 
 /* Czytelność treści */
