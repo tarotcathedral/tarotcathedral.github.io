@@ -1,207 +1,127 @@
 /* ============================================================
-   TAROT CATHEDRAL - WITCHY UwU EDITION ✨💜
-   Colors: Brown (#3D2B1F), Beige (#FDF8ED), Blue (#2A829D)
-   Fonts: Bree Serif (H1), Lora (H2/H3), Open Sans (Body)
+   TAROT CATHEDRAL - HIGH MAGIC UwU EDITION ✨🔮
    ============================================================ */
 
 /* 1. IMPORT CZCIONEK */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora:ital,wght@0,600;1,600&family=Open+Sans:wght@400;500&display=swap');
 
-/* 2. BAZA I TYPOGRAFIA GŁÓWNA */
+/* 2. MAGICZNY KURSOR (Włączony!) */
 body {
     background-color: #FDF8ED !important;
     color: #3D2B1F;
     font-family: 'Open Sans', sans-serif !important;
     line-height: 1.85 !important;
     letter-spacing: 0.01rem;
+    /* Zmieniamy kursor na magiczną gwiazdkę/iskierkę */
+    cursor: url('https://cdn-icons-png.flaticon.com/32/1067/1067357.png'), auto !important;
 }
 
-/* Złote zaznaczanie tekstu */
-::selection {
-    background: rgba(212, 165, 59, 0.2);
-    color: #3D2B1F;
-}
-
-/* Tytuły (Bree Serif) */
-h1, .page-title, .navbar-brand {
-    font-family: 'Bree Serif', serif !important;
-    font-weight: 400 !important;
-    color: #3D2B1F !important;
-    text-align: left;
-}
-
-/* Nagłówki i Podtytuły (Lora) */
-h2, h3, h4, .post-subtitle {
-    font-family: 'Lora', serif !important;
-    font-weight: 600 !important;
-    color: #3D2B1F !important;
-    text-align: left;
-}
-
-/* 3. LINKI I INTERAKCJE (Efekt rozsuwanego podkreślenia) */
-a, .post-content a, a.more-link, footer a {
-    color: #2A829D !important;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    text-decoration: none !important;
-}
-
-.post-content a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 1px;
-    bottom: -1px;
-    left: 50%;
-    background-color: #34A0C1;
-    transition: all 0.3s ease;
-}
-
-a:hover, .post-content a:hover, a.more-link:hover, footer a:hover {
-    color: #34A0C1 !important;
-}
-
-.post-content a:hover::after {
-    width: 100%;
-    left: 0;
-}
-
-/* 4. NAWIGACJA (Glow Effect) */
-.navbar {
-    background-color: #3D2B1F !important; 
-    border-bottom: 2px solid #2A829D !important;
-}
-
+/* 3. TYTUŁ Z EFEKTEM PRZEPŁYWAJĄCEGO ŚWIATŁA (Shimmer) */
 .navbar-brand {
-    transition: all 0.5s ease-in-out !important;
+    font-family: 'Bree Serif', serif !important;
+    color: #FDF8ED !important;
+    position: relative;
+    background: linear-gradient(to right, #FDF8ED 20%, #2A829D 40%, #2A829D 60%, #FDF8ED 80%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 4s linear infinite;
+    transition: transform 0.3s ease !important;
+    display: inline-block;
+}
+
+@keyframes shine {
+    to { background-position: 200% center; }
 }
 
 .navbar-brand:hover {
-    color: #FDF8ED !important;
-    text-shadow: 0 0 8px rgba(42, 130, 157, 0.7);
-    transform: scale(1.03);
+    transform: scale(1.1) rotate(1deg) !important;
 }
 
-.navbar a {
-    color: #FDF8ED !important;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-}
-
-.navbar a:hover {
+/* 4. LINKI Z PULSUJĄCYM PODKREŚLENIEM */
+.post-content a {
     color: #2A829D !important;
+    text-decoration: none !important;
+    font-weight: 500;
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgba(42, 130, 157, 0.2);
+    transition: all 0.3s ease;
 }
 
-/* Dropdown Menu */
-.navbar-custom .nav-item.dropdown .dropdown-menu,
-.dropdown-menu {
-    background-color: #4D392C !important;
-    border: 1px solid #2A829D !important;
-    border-radius: 10px; /* Delikatne zaokrąglenie menu */
+.post-content a:hover {
+    color: #34A0C1 !important;
+    border-bottom: 2px solid #34A0C1;
+    text-shadow: 0 0 5px rgba(52, 160, 193, 0.4);
 }
 
-.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item,
-.dropdown-item {
-    background-color: #4D392C !important;
-    color: #FDF8ED !important;
-    font-family: 'Open Sans', sans-serif;
-    padding: 10px 20px !important;
-    border: none !important;
-}
-
-.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:hover,
-.dropdown-item:hover {
-    background-color: #3D2B1F !important;
-    color: #2A829D !important; 
-}
-
-/* 5. LISTA POSTÓW (Floating effect) */
-.page-title {
-    font-size: 3.2rem;
-    margin-bottom: 15px;
-}
-
-.post-subtitle {
-    color: #6D5A4D;
-    font-style: italic;
-    font-size: 1.4rem;
-    margin-bottom: 25px;
-}
-
+/* 5. POSTY, KTÓRE ŚWIECĄ (Glow Hover) */
 .post-preview {
     margin-bottom: 60px !important;
     padding: 25px;
-    transition: all 0.4s ease-in-out !important;
-    border-radius: 15px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .post-preview:hover {
-    background-color: rgba(255, 255, 255, 0.3) !important;
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(61, 43, 31, 0.05) !important;
+    background-color: #FFFFFF !important;
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 15px 40px rgba(42, 130, 157, 0.15) !important; /* Błękitna poświata */
 }
 
-.post-content {
-    font-size: 1.1rem;
-}
-
-.post-content p {
-    margin-bottom: 1.8rem !important;
-}
-
-/* 6. TAGI I PRZYCISKI (Puszyste i zaokrąglone) */
-.btn-primary, .tag-btn, .post-tag {
+/* 6. PUSZYSTE TAGI (Skaczące) */
+.tag-btn, .post-tag {
     background-color: #2A829D !important;
-    border-color: #2A829D !important;
     color: #FFFFFF !important;
-    font-family: 'Open Sans', sans-serif;
-    border-radius: 25px !important; /* UwU roundness */
+    border-radius: 30px !important;
     padding: 8px 20px !important;
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: inline-block;
 }
 
-.btn-primary:hover, .tag-btn:hover, .post-tag:hover {
+.tag-btn:hover, .post-tag:hover {
+    transform: scale(1.2) translateY(-3px);
     background-color: #34A0C1 !important;
-    transform: scale(1.1) rotate(-1deg);
-    color: #FFFFFF !important;
+    box-shadow: 0 5px 15px rgba(52, 160, 193, 0.4);
 }
 
-.tag-count {
-    color: rgba(255, 255, 255, 0.8) !important;
+/* 7. NAWIGACJA I DROPDOWN */
+.navbar {
+    background-color: #3D2B1F !important; 
+    border-bottom: 3px solid #2A829D !important;
 }
 
-/* 7. STOPKA (Pulsowanie ikon) */
+.dropdown-menu {
+    background-color: #4D392C !important;
+    border: 2px solid #2A829D !important;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.dropdown-item:hover {
+    background-color: #3D2B1F !important;
+    color: #34A0C1 !important;
+    padding-left: 30px !important; /* Efekt wysunięcia w bok */
+    transition: all 0.3s ease;
+}
+
+/* 8. STOPKA */
 footer {
     background-color: #3D2B1F !important;
-    color: #FDF8ED !important;
     border-top: 2px solid #2A829D !important;
-    padding: 30px 0;
-}
-
-footer .fa-stack {
-    transition: all 0.3s ease-in-out;
 }
 
 footer a:hover .fa-stack {
-    transform: scale(1.2);
-    filter: drop-shadow(0 0 5px rgba(42, 130, 157, 0.5));
+    transform: scale(1.3) rotate(10deg);
+    filter: drop-shadow(0 0 10px #2A829D);
 }
 
-footer .fa-circle {
-    color: #4D392C !important;
-}
+/* Reszta typografii */
+h1, .page-title { font-family: 'Bree Serif', serif !important; color: #3D2B1F !important; }
+h2, h3, .post-subtitle { font-family: 'Lora', serif !important; color: #3D2B1F !important; }
 
-footer .fa-inverse {
-    color: #FDF8ED !important;
-}
-
-/* 8. WERSJA MOBILNA */
+/* 9. WERSJA MOBILNA */
 @media only screen and (max-width: 767px) {
-    .post-preview {
-        margin-bottom: 80px !important;
-    }
-    
-    .page-title {
-        font-size: 2.4rem !important;
-    }
+    .post-preview { margin-bottom: 80px !important; }
+    .page-title { font-size: 2.4rem !important; }
 }
