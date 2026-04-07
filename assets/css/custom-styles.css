@@ -39,8 +39,6 @@ footer a:hover {
 .dropdown-menu {
     background-color: #1A3C35 !important;           /* ciemna butelkowa zieleń */
     border: 1px solid #9B2A4C !important;           /* MALINOWY BORDER */
-/*     border-radius: 4px; */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item,
