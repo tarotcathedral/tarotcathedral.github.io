@@ -46,13 +46,20 @@ h1, .page-title, .navbar-brand, .site-heading {
     color: #3D2B1F !important;
 }
 
-/* Wyśrodkowanie daty i autora na stronach postów */
-.post-meta {
+/* FIX: Wyśrodkowanie daty TYLKO na podstronie posta */
+.post-heading .post-meta {
     text-align: center !important;
     display: block !important;
     width: 100% !important;
     margin-bottom: 20px !important;
     font-family: 'Open Sans', sans-serif !important;
+}
+
+/* FIX: Data na stronie głównej (wewnątrz podglądu posta) zostaje po lewej */
+.post-preview .post-meta {
+    text-align: left !important;
+    display: block !important;
+    margin-bottom: 10px !important;
 }
 
 h2, h3, h4, .post-subtitle {
@@ -81,7 +88,7 @@ h2, h3, h4, .post-subtitle {
 .dropdown-menu {
     background-color: #4D392C !important;
     border: 2px solid #E294AA !important;
-    border-radius: 0px !important; /* Usunięto zaokrąglenie, by uniknąć glitchu */
+    border-radius: 0px !important; 
     overflow: hidden !important;
     padding: 0 !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
