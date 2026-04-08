@@ -25,10 +25,10 @@ a, button, .tag-btn, .post-tag, .navbar-brand, .nav-link, .dropdown-item {
 ::selection { background: rgba(226, 148, 170, 0.2); color: #3D2B1F; }
 
 /* 3. TYPOGRAFIA (NAGŁÓWKI) */
-h1, .page-title, .navbar-brand, .site-heading {
+h1, .page-title, .navbar-brand, .site-heading, .post-heading h1 {
     font-family: 'Bree Serif', serif !important;
     color: #3D2B1F !important;
-    text-align: center !important; /* Wyśrodkowanie tytułu głównego */
+    text-align: center !important;
     text-shadow: none !important; 
     background: none !important; 
     -webkit-text-fill-color: initial !important; 
@@ -46,14 +46,17 @@ h2, h3, h4 {
     font-family: 'Lora', serif !important;
     text-align: left !important;
     color: #3D2B1F !important;
+    margin: 0 !important;
 }
 
-/* Podtytuł wewnątrz posta (Nagłówek posta) - ŚRODKOWANIE */
-.intro-header .post-subtitle {
+/* Podtytuł wewnątrz posta (Nagłówek posta) - ŚRODKOWANIE FIX */
+.intro-header .post-subtitle, .post-heading .post-subtitle {
     font-family: 'Lora', serif !important;
     text-align: center !important;
     color: #3D2B1F !important;
-    display: block;
+    display: block !important;
+    width: 100% !important;
+    margin: 10px auto !important;
 }
 
 /* 4. NAWIGACJA (MENU) */
