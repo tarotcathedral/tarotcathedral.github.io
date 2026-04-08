@@ -77,14 +77,19 @@ h2, h3, h4, .post-subtitle {
     background: transparent !important;
 }
 
+/* Dropdown (Menu rozwijane) - Poprawione krawędzie */
 .dropdown-menu {
     background-color: #4D392C !important;
     border: 2px solid #E294AA !important;
-    border-radius: 15px;
+    border-radius: 0px !important; /* Usunięto zaokrąglenie, by uniknąć glitchu */
+    overflow: hidden !important;
+    padding: 0 !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .dropdown-item {
     color: #FDF8ED !important;
+    padding: 10px 20px !important;
     transition: all 0.3s ease;
 }
 
@@ -125,22 +130,20 @@ a:hover, .post-content a:hover, .more-link:hover {
     box-shadow: 0 15px 35px rgba(42, 130, 157, 0.1) !important;
 }
 
-/* 7. TAGI I PRZYCISKI (Ujednolicone we wszystkich miejscach) */
-/* Dodane selektory dla listy głównej i dołu posta */
+/* 7. TAGI I PRZYCISKI (Ujednolicone) */
 .btn-primary, .tag-btn, .post-tag, .blog-tags a, .post-meta a {
     background-color: #E294AA !important;
     color: #FFFFFF !important;
     border: none !important;
     border-radius: 30px !important;
-    padding: 4px 12px !important; /* Mniejszy padding dla tagów */
-    font-size: 0.85rem !important; /* Mniejszy font dla tagów */
+    padding: 4px 12px !important;
+    font-size: 0.85rem !important;
     display: inline-block !important;
     margin: 3px !important;
     transition: all 0.3s ease;
     text-decoration: none !important;
 }
 
-/* Napis "Tags:" przed tagami w poście */
 .blog-tags span {
     font-weight: 600;
     margin-right: 5px;
@@ -153,7 +156,6 @@ a:hover, .post-content a:hover, .more-link:hover {
     transform: scale(1.05);
 }
 
-/* Wyjątek dla strony /tags, gdzie tagi są duże (główne bąbelki) */
 .tag-btn {
     padding: 8px 20px !important;
     font-size: 1rem !important;
@@ -186,7 +188,7 @@ footer a:hover .fa-circle { color: #2A829D !important; }
                   text-align: center !important; }
 }
 
-/* Stylizacja nawigacji między postami (Previous / Next Post) */
+/* Nawigacja między postami */
 .blog-pager .page-link {
     background-color: transparent !important;
     color: #E294AA !important;
@@ -195,19 +197,16 @@ footer a:hover .fa-circle { color: #2A829D !important; }
     padding: 8px 20px !important;
     transition: all 0.3s ease !important;
     font-weight: 600 !important;
-    text-transform: lowercase; /* UwU style */
+    text-transform: lowercase;
 }
 
-/* Hover dla przycisków nawigacji - zmiana na niebieski bąbelek */
 .blog-pager .page-item a:hover {
     background-color: #2A829D !important;
     color: #FFFFFF !important;
     border-color: #2A829D !important;
-    text-decoration: none !important;
     transform: scale(1.05);
 }
 
-/* Usunięcie domyślnych niebieskich obramowań z Bootstrapa */
 .page-link:focus {
     box-shadow: 0 0 0 0.2rem rgba(226, 148, 170, 0.25) !important;
 }
