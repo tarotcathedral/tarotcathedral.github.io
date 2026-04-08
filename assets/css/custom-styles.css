@@ -25,12 +25,12 @@ a, button, .tag-btn, .post-tag, .navbar-brand, .nav-link, .dropdown-item {
 ::selection { background: rgba(226, 148, 170, 0.2); color: #3D2B1F; }
 
 /* 3. TYPOGRAFIA (NAGŁÓWKI) */
-h1, .page-title, .navbar-brand {
+h1, .page-title, .navbar-brand, .site-heading {
     font-family: 'Bree Serif', serif !important;
     color: #3D2B1F !important;
-    text-align: left;
-    text-shadow: none !important; /* Usunięto świecenie */
-    background: none !important; /* Usunięto gradienty */
+    text-align: center !important; /* Wyśrodkowanie tytułu */
+    text-shadow: none !important; 
+    background: none !important; 
     -webkit-text-fill-color: initial !important; 
     animation: none !important;
 }
@@ -55,7 +55,7 @@ h2, h3, h4, .post-subtitle {
 
 /* Hover w menu: Różowy -> Niebieski */
 .navbar a:hover, .navbar-brand:hover, .nav-link:hover {
-    color: #2A829D !important; /* Wymuszony błękit zamiast pomarańczu */
+    color: #2A829D !important; 
     background: transparent !important;
 }
 
@@ -122,7 +122,9 @@ a:hover, .post-content a:hover, .more-link:hover {
 
 .btn-primary:hover, .tag-btn:hover, .post-tag:hover {
     background-color: #2A829D !important;
+    color: #FFFFFF !important; /* Wymuszony biały font na niebieskim hoverze */
     transform: scale(1.1);
+    text-decoration: none !important;
 }
 
 /* 8. STOPKA (FOOTER) */
@@ -163,5 +165,6 @@ footer a:hover .fa-circle {
 /* 9. WERSJA MOBILNA */
 @media only screen and (max-width: 767px) {
     .post-preview { margin-bottom: 80px !important; }
-    .page-title { font-size: 2.2rem !important; }
+    .page-title { font-size: 2.2rem !important; 
+                  text-align: center !important; }
 }
