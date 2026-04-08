@@ -185,3 +185,29 @@ footer a:hover .fa-circle { color: #2A829D !important; }
     .page-title { font-size: 2.2rem !important;
                   text-align: center !important; }
 }
+
+/* Stylizacja nawigacji między postami (Previous / Next Post) */
+.blog-pager .page-link {
+    background-color: transparent !important;
+    color: #E294AA !important;
+    border: 2px solid #E294AA !important;
+    border-radius: 30px !important;
+    padding: 8px 20px !important;
+    transition: all 0.3s ease !important;
+    font-weight: 600 !important;
+    text-transform: lowercase; /* UwU style */
+}
+
+/* Hover dla przycisków nawigacji - zmiana na niebieski bąbelek */
+.blog-pager .page-item a:hover {
+    background-color: #2A829D !important;
+    color: #FFFFFF !important;
+    border-color: #2A829D !important;
+    text-decoration: none !important;
+    transform: scale(1.05);
+}
+
+/* Usunięcie domyślnych niebieskich obramowań z Bootstrapa */
+.page-link:focus {
+    box-shadow: 0 0 0 0.2rem rgba(226, 148, 170, 0.25) !important;
+}
