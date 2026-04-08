@@ -1,128 +1,167 @@
 /* ============================================================
-   TAROT CATHEDRAL - PINK & BLUE MAGIC EDITION 🌸⚔️
-   ============================================================ */
+TAROT CATHEDRAL - PINK & BLUE MAGIC EDITION 🌸⚔️
+Clean, Consistent & UwU
+============================================================ */
 
 /* 1. IMPORT CZCIONEK */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora:ital,wght@0,600;1,600&family=Open+Sans:wght@400;500&display=swap');
 
 /* 2. BAZA I MAGICZNY KURSOR */
 body {
-    background-color: #FDF8ED !important;
-    color: #3D2B1F !important;
-    font-family: 'Open Sans', sans-serif !important;
-    line-height: 1.85 !important;
-    cursor: url('/assets/img/kursor.png'), auto !important;
+background-color: #FDF8ED !important;
+color: #3D2B1F;
+font-family: 'Open Sans', sans-serif !important;
+line-height: 1.85 !important;
+letter-spacing: 0.01rem;
+cursor: url('/assets/img/kursor.png'), auto !important;
 }
 
-/* Kursor dla elementów klikalnych */
+/* Kursor dla wszystkich elementów klikalnych */
 a, button, .tag-btn, .post-tag, .navbar-brand, .nav-link, .dropdown-item {
-    cursor: url('/assets/img/kursor.png'), pointer !important;
+cursor: url('/assets/img/kursor.png'), pointer !important;
 }
+
+/* Złociste zaznaczanie tekstu */
+::selection { background: rgba(226, 148, 170, 0.2); color: #3D2B1F; }
 
 /* 3. TYPOGRAFIA (NAGŁÓWKI) */
-/* To wymusza środek dla głównego tytułu na WSZYSTKICH stronach */
-h1, .page-title, .site-heading, .post-heading h1, .intro-header h1 {
-    font-family: 'Bree Serif', serif !important;
-    color: #3D2B1F !important;
-    text-align: center !important;
-    display: block !important;
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+h1, .page-title, .navbar-brand {
+font-family: 'Bree Serif', serif !important;
+color: #3D2B1F !important;
+text-align: left;
+text-shadow: none !important; /* Usunięto świecenie */
+background: none !important; /* Usunięto gradienty */
+-webkit-text-fill-color: initial !important;
+animation: none !important;
 }
 
-/* Podtytuł na liście postów (Home) - zostaje do lewej */
-.post-preview .post-subtitle {
-    font-family: 'Lora', serif !important;
-    text-align: left !important;
-    margin: 0 !important;
-}
-
-/* Podtytuł WEWNĄTRZ posta - wymuszony środek */
-.intro-header .post-subtitle, 
-.post-heading .post-subtitle,
-header.intro-header .span8.offset2 .post-subtitle {
-    font-family: 'Lora', serif !important;
-    text-align: center !important;
-    display: block !important;
-    width: 100% !important;
-    margin: 10px auto !important;
-}
-
-/* Wyśrodkowanie daty pod tytułem posta */
-.post-heading .post-meta {
-    text-align: center !important;
-    display: block !important;
+h2, h3, h4, .post-subtitle {
+font-family: 'Lora', serif !important;
+font-weight: 600 !important;
+color: #3D2B1F !important;
 }
 
 /* 4. NAWIGACJA (MENU) */
 .navbar {
-    background-color: #3D2B1F !important; 
-    border-bottom: 3px solid #E294AA !important;
+background-color: #3D2B1F !important;
+border-bottom: 3px solid #E294AA !important; /* Różowy pasek */
 }
 
+/* Napisy w menu */
 .navbar a, .navbar-brand {
-    color: #FDF8ED !important;
+color: #FDF8ED !important;
+transition: all 0.3s ease;
 }
 
-.navbar a:hover, .nav-link:hover {
-    color: #2A829D !important; 
+/* Hover w menu: Różowy -> Niebieski */
+.navbar a:hover, .navbar-brand:hover, .nav-link:hover {
+color: #2A829D !important; /* Wymuszony błękit zamiast pomarańczu */
+background: transparent !important;
 }
 
-/* 5. LINKI */
-a, .post-content a, .more-link {
-    color: #E294AA !important;
-    text-decoration: none !important;
+/* Dropdown (Menu rozwijane) */
+.dropdown-menu {
+background-color: #4D392C !important;
+border: 2px solid #E294AA !important;
+border-radius: 15px;
 }
 
-a:hover {
-    color: #2A829D !important;
+.dropdown-item {
+color: #FDF8ED !important;
+transition: all 0.3s ease;
 }
 
-/* 6. UKŁAD POSTÓW (HOVER) */
+.dropdown-item:hover {
+background-color: #3D2B1F !important;
+color: #2A829D !important;
+padding-left: 25px !important;
+}
+
+/* 5. LINKI (POSTY, LISTA, READ MORE) */
+/* Baza: Różowy | Hover: Niebieski */
+a, .post-content a, .post-preview a, .more-link {
+color: #E294AA !important;
+text-decoration: none !important;
+transition: all 0.3s ease;
+}
+
+a:hover, .post-content a:hover, .more-link:hover {
+color: #2A829D !important;
+}
+
+/* Link [Read More] na liście postów */
+.more-link {
+font-weight: 600;
+text-transform: lowercase; /* UwU style */
+font-size: 1rem;
+}
+
+/* 6. UKŁAD POSTÓW (ODDECH I HOVER) */
 .post-preview {
-    margin-bottom: 60px !important;
-    padding: 25px;
-    border-radius: 20px;
-    transition: all 0.4s ease;
+margin-bottom: 60px !important;
+padding: 25px;
+transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+border-radius: 20px;
 }
 
 .post-preview:hover {
-    background-color: rgba(255, 255, 255, 0.5) !important;
-    transform: translateY(-8px);
+background-color: rgba(255, 255, 255, 0.5) !important;
+transform: translateY(-8px);
+box-shadow: 0 15px 35px rgba(42, 130, 157, 0.1) !important;
 }
 
-/* 7. TAGI (Poprawka znikania fontu na hover) */
-.btn-primary, .tag-btn, .post-tag, .blog-tags a {
-    background-color: #E294AA !important;
-    color: #FFFFFF !important;
-    border-radius: 30px !important;
-    padding: 8px 20px !important;
-    display: inline-block;
-    margin: 5px;
+/* 7. TAGI I PRZYCISKI (Różowy -> Niebieski) */
+.btn-primary, .tag-btn, .post-tag {
+background-color: #E294AA !important;
+color: #FFFFFF !important;
+border: none !important;
+border-radius: 30px !important;
+padding: 8px 20px !important;
+transition: all 0.3s ease;
 }
 
-.btn-primary:hover, .tag-btn:hover, .post-tag:hover, .blog-tags a:hover {
-    background-color: #2A829D !important;
-    color: #FFFFFF !important; /* To naprawia Twój błąd z niebieskim napisem na niebieskim tle */
-    text-decoration: none !important;
-    transform: scale(1.1);
+.btn-primary:hover, .tag-btn:hover, .post-tag:hover {
+background-color: #2A829D !important;
+transform: scale(1.1);
 }
 
-/* 8. STOPKA */
+/* 8. STOPKA (FOOTER) */
 footer {
-    background-color: #3D2B1F !important;
-    color: #FDF8ED !important;
-    border-top: 3px solid #E294AA !important;
+background-color: #3D2B1F !important;
+color: #FDF8ED !important;
+border-top: 3px solid #E294AA !important;
+padding: 40px 0;
 }
 
-footer a { color: #E294AA !important; }
-footer .fa-circle { color: #E294AA !important; }
-footer a:hover .fa-circle { color: #2A829D !important; }
+/* Linki w stopce (np. Powered by) */
+footer a {
+color: #E294AA !important;
+}
+
+footer a:hover {
+color: #2A829D !important;
+}
+
+/* Ikonki Social Media */
+footer .fa-circle {
+color: #E294AA !important; /* Różowe koła */
+transition: all 0.3s ease;
+}
+
+footer .fa-inverse {
+color: #3D2B1F !important; /* Ciemne symbole w środku */
+}
+
+footer a:hover .fa-stack {
+transform: scale(1.2);
+}
+
+footer a:hover .fa-circle {
+color: #2A829D !important; /* Niebieski hover kół */
+}
 
 /* 9. WERSJA MOBILNA */
 @media only screen and (max-width: 767px) {
-    .page-title, .post-heading h1 { 
-        font-size: 2.2rem !important; 
-    }
+.post-preview { margin-bottom: 80px !important; }
+.page-title { font-size: 2.2rem !important; }
 }
