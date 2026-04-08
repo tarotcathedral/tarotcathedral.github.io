@@ -46,6 +46,15 @@ h1, .page-title, .navbar-brand, .site-heading {
     color: #3D2B1F !important;
 }
 
+/* Wyśrodkowanie daty i autora na stronach postów */
+.post-meta {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
 h2, h3, h4, .post-subtitle {
     font-family: 'Lora', serif !important;
     font-weight: 600 !important;
