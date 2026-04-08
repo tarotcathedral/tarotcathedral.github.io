@@ -28,38 +28,50 @@ a, button, .tag-btn, .post-tag, .navbar-brand, .nav-link, .dropdown-item {
 h1, .page-title, .navbar-brand, .site-heading {
     font-family: 'Bree Serif', serif !important;
     color: #3D2B1F !important;
-    text-align: center !important; /* Wyśrodkowanie tytułu */
+    text-align: center !important; /* Wyśrodkowanie tytułu głównego */
     text-shadow: none !important; 
     background: none !important; 
     -webkit-text-fill-color: initial !important; 
     animation: none !important;
 }
 
-h2, h3, h4, .post-subtitle {
+h2, h3, h4 {
     font-family: 'Lora', serif !important;
     font-weight: 600 !important;
     color: #3D2B1F !important;
 }
 
+/* Podtytuł na liście postów (Strona Główna) - zostaje do lewej */
+.post-preview .post-subtitle {
+    font-family: 'Lora', serif !important;
+    text-align: left !important;
+    color: #3D2B1F !important;
+}
+
+/* Podtytuł wewnątrz posta (Nagłówek posta) - ŚRODKOWANIE */
+.intro-header .post-subtitle {
+    font-family: 'Lora', serif !important;
+    text-align: center !important;
+    color: #3D2B1F !important;
+    display: block;
+}
+
 /* 4. NAWIGACJA (MENU) */
 .navbar {
     background-color: #3D2B1F !important; 
-    border-bottom: 3px solid #E294AA !important; /* Różowy pasek */
+    border-bottom: 3px solid #E294AA !important;
 }
 
-/* Napisy w menu */
 .navbar a, .navbar-brand {
     color: #FDF8ED !important;
     transition: all 0.3s ease;
 }
 
-/* Hover w menu: Różowy -> Niebieski */
 .navbar a:hover, .navbar-brand:hover, .nav-link:hover {
     color: #2A829D !important; 
     background: transparent !important;
 }
 
-/* Dropdown (Menu rozwijane) */
 .dropdown-menu {
     background-color: #4D392C !important;
     border: 2px solid #E294AA !important;
@@ -78,7 +90,6 @@ h2, h3, h4, .post-subtitle {
 }
 
 /* 5. LINKI (POSTY, LISTA, READ MORE) */
-/* Baza: Różowy | Hover: Niebieski */
 a, .post-content a, .post-preview a, .more-link {
     color: #E294AA !important;
     text-decoration: none !important;
@@ -89,10 +100,9 @@ a:hover, .post-content a:hover, .more-link:hover {
     color: #2A829D !important;
 }
 
-/* Link [Read More] na liście postów */
 .more-link {
     font-weight: 600;
-    text-transform: lowercase; /* UwU style */
+    text-transform: lowercase;
     font-size: 1rem;
 }
 
@@ -122,7 +132,7 @@ a:hover, .post-content a:hover, .more-link:hover {
 
 .btn-primary:hover, .tag-btn:hover, .post-tag:hover {
     background-color: #2A829D !important;
-    color: #FFFFFF !important; /* Wymuszony biały font na niebieskim hoverze */
+    color: #FFFFFF !important;
     transform: scale(1.1);
     text-decoration: none !important;
 }
@@ -135,36 +145,23 @@ footer {
     padding: 40px 0;
 }
 
-/* Linki w stopce (np. Powered by) */
-footer a {
-    color: #E294AA !important;
-}
+footer a { color: #E294AA !important; }
+footer a:hover { color: #2A829D !important; }
 
-footer a:hover {
-    color: #2A829D !important;
-}
-
-/* Ikonki Social Media */
 footer .fa-circle {
-    color: #E294AA !important; /* Różowe koła */
+    color: #E294AA !important;
     transition: all 0.3s ease;
 }
 
-footer .fa-inverse {
-    color: #3D2B1F !important; /* Ciemne symbole w środku */
-}
-
-footer a:hover .fa-stack {
-    transform: scale(1.2);
-}
-
-footer a:hover .fa-circle {
-    color: #2A829D !important; /* Niebieski hover kół */
-}
+footer .fa-inverse { color: #3D2B1F !important; }
+footer a:hover .fa-stack { transform: scale(1.2); }
+footer a:hover .fa-circle { color: #2A829D !important; }
 
 /* 9. WERSJA MOBILNA */
 @media only screen and (max-width: 767px) {
     .post-preview { margin-bottom: 80px !important; }
-    .page-title { font-size: 2.2rem !important; 
-                  text-align: center !important; }
+    .page-title { 
+        font-size: 2.2rem !important; 
+        text-align: center !important; 
+    }
 }
