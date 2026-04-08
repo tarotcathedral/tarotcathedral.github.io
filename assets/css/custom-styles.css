@@ -46,7 +46,7 @@ h1, .page-title, .navbar-brand, .site-heading {
     color: #3D2B1F !important;
 }
 
-/* FIX: Wyśrodkowanie daty TYLKO na podstronie posta */
+/* Data i autor na podstronie posta - ŚRODEK */
 .post-heading .post-meta {
     text-align: center !important;
     display: block !important;
@@ -55,11 +55,12 @@ h1, .page-title, .navbar-brand, .site-heading {
     font-family: 'Open Sans', sans-serif !important;
 }
 
-/* FIX: Data na stronie głównej (wewnątrz podglądu posta) zostaje po lewej */
+/* Data i autor na stronie głównej - LEWO */
 .post-preview .post-meta {
     text-align: left !important;
     display: block !important;
     margin-bottom: 10px !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 h2, h3, h4, .post-subtitle {
@@ -120,100 +121,4 @@ a:hover, .post-content a:hover, .more-link:hover {
 .more-link {
     font-weight: 600;
     text-transform: lowercase;
-    font-size: 1rem;
-}
-
-/* 6. UKŁAD POSTÓW (ODDECH I HOVER) */
-.post-preview {
-    margin-bottom: 60px !important;
-    padding: 25px;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-    border-radius: 20px;
-}
-
-.post-preview:hover {
-    background-color: rgba(255, 255, 255, 0.5) !important;
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(42, 130, 157, 0.1) !important;
-}
-
-/* 7. TAGI I PRZYCISKI (Ujednolicone) */
-.btn-primary, .tag-btn, .post-tag, .blog-tags a, .post-meta a {
-    background-color: #E294AA !important;
-    color: #FFFFFF !important;
-    border: none !important;
-    border-radius: 30px !important;
-    padding: 4px 12px !important;
-    font-size: 0.85rem !important;
-    display: inline-block !important;
-    margin: 3px !important;
-    transition: all 0.3s ease;
-    text-decoration: none !important;
-}
-
-.blog-tags span {
-    font-weight: 600;
-    margin-right: 5px;
-    color: #3D2B1F;
-}
-
-.btn-primary:hover, .tag-btn:hover, .post-tag:hover, .blog-tags a:hover, .post-meta a:hover {
-    background-color: #2A829D !important;
-    color: #FFFFFF !important;
-    transform: scale(1.05);
-}
-
-.tag-btn {
-    padding: 8px 20px !important;
-    font-size: 1rem !important;
-}
-
-/* 8. STOPKA (FOOTER) */
-footer {
-    background-color: #3D2B1F !important;
-    color: #FDF8ED !important;
-    border-top: 3px solid #E294AA !important;
-    padding: 40px 0;
-}
-
-footer a { color: #E294AA !important; }
-footer a:hover { color: #2A829D !important; }
-
-footer .fa-circle {
-    color: #E294AA !important;
-    transition: all 0.3s ease;
-}
-
-footer .fa-inverse { color: #3D2B1F !important; }
-footer a:hover .fa-stack { transform: scale(1.2); }
-footer a:hover .fa-circle { color: #2A829D !important; }
-
-/* 9. WERSJA MOBILNA */
-@media only screen and (max-width: 767px) {
-    .post-preview { margin-bottom: 80px !important; }
-    .page-title { font-size: 2.2rem !important;
-                  text-align: center !important; }
-}
-
-/* Nawigacja między postami */
-.blog-pager .page-link {
-    background-color: transparent !important;
-    color: #E294AA !important;
-    border: 2px solid #E294AA !important;
-    border-radius: 30px !important;
-    padding: 8px 20px !important;
-    transition: all 0.3s ease !important;
-    font-weight: 600 !important;
-    text-transform: lowercase;
-}
-
-.blog-pager .page-item a:hover {
-    background-color: #2A829D !important;
-    color: #FFFFFF !important;
-    border-color: #2A829D !important;
-    transform: scale(1.05);
-}
-
-.page-link:focus {
-    box-shadow: 0 0 0 0.2rem rgba(226, 148, 170, 0.25) !important;
-}
+    font-size: 1rem
