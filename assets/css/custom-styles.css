@@ -51,6 +51,7 @@ color: #3D2B1F !important;
 /* Wyjustowanie daty i autora do lewej na stronie głównej */
 .post-preview .post-meta {
     text-align: left !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 h2, h3, h4, .post-subtitle {
 font-family: 'Lora', serif !important;
