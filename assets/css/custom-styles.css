@@ -35,6 +35,17 @@ h1, .page-title, .navbar-brand, .site-heading {
     animation: none !important;
 }
 
+/* Wyśrodkowanie podtytułu tylko na stronach postów */
+.post-subheading {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 10px auto !important;
+    font-family: 'Lora', serif !important;
+    font-weight: 600 !important;
+    color: #3D2B1F !important;
+}
+
 h2, h3, h4, .post-subtitle {
     font-family: 'Lora', serif !important;
     font-weight: 600 !important;
