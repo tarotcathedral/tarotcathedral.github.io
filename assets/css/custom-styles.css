@@ -1,6 +1,5 @@
 /* ============================================================
    TAROT CATHEDRAL - PINK & BLUE MAGIC EDITION 🌸⚔️
-   Clean, Consistent & UwU 
    ============================================================ */
 
 /* 1. IMPORT CZCIONEK */
@@ -9,54 +8,51 @@
 /* 2. BAZA I MAGICZNY KURSOR */
 body {
     background-color: #FDF8ED !important;
-    color: #3D2B1F;
+    color: #3D2B1F !important;
     font-family: 'Open Sans', sans-serif !important;
     line-height: 1.85 !important;
-    letter-spacing: 0.01rem;
     cursor: url('/assets/img/kursor.png'), auto !important;
 }
 
-/* Kursor dla wszystkich elementów klikalnych */
+/* Kursor dla elementów klikalnych */
 a, button, .tag-btn, .post-tag, .navbar-brand, .nav-link, .dropdown-item {
     cursor: url('/assets/img/kursor.png'), pointer !important;
 }
 
-/* Złociste zaznaczanie tekstu */
-::selection { background: rgba(226, 148, 170, 0.2); color: #3D2B1F; }
-
 /* 3. TYPOGRAFIA (NAGŁÓWKI) */
-h1, .page-title, .navbar-brand, .site-heading, .post-heading h1 {
+/* To wymusza środek dla głównego tytułu na WSZYSTKICH stronach */
+h1, .page-title, .site-heading, .post-heading h1, .intro-header h1 {
     font-family: 'Bree Serif', serif !important;
     color: #3D2B1F !important;
     text-align: center !important;
-    text-shadow: none !important; 
-    background: none !important; 
-    -webkit-text-fill-color: initial !important; 
-    animation: none !important;
+    display: block !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
-h2, h3, h4 {
-    font-family: 'Lora', serif !important;
-    font-weight: 600 !important;
-    color: #3D2B1F !important;
-}
-
-/* Podtytuł na liście postów (Strona Główna) - zostaje do lewej */
+/* Podtytuł na liście postów (Home) - zostaje do lewej */
 .post-preview .post-subtitle {
     font-family: 'Lora', serif !important;
     text-align: left !important;
-    color: #3D2B1F !important;
     margin: 0 !important;
 }
 
-/* Podtytuł wewnątrz posta (Nagłówek posta) - ŚRODKOWANIE FIX */
-.intro-header .post-subtitle, .post-heading .post-subtitle {
+/* Podtytuł WEWNĄTRZ posta - wymuszony środek */
+.intro-header .post-subtitle, 
+.post-heading .post-subtitle,
+header.intro-header .span8.offset2 .post-subtitle {
     font-family: 'Lora', serif !important;
     text-align: center !important;
-    color: #3D2B1F !important;
     display: block !important;
     width: 100% !important;
     margin: 10px auto !important;
+}
+
+/* Wyśrodkowanie daty pod tytułem posta */
+.post-heading .post-meta {
+    text-align: center !important;
+    display: block !important;
 }
 
 /* 4. NAWIGACJA (MENU) */
@@ -67,104 +63,66 @@ h2, h3, h4 {
 
 .navbar a, .navbar-brand {
     color: #FDF8ED !important;
-    transition: all 0.3s ease;
 }
 
-.navbar a:hover, .navbar-brand:hover, .nav-link:hover {
+.navbar a:hover, .nav-link:hover {
     color: #2A829D !important; 
-    background: transparent !important;
 }
 
-.dropdown-menu {
-    background-color: #4D392C !important;
-    border: 2px solid #E294AA !important;
-    border-radius: 15px;
-}
-
-.dropdown-item {
-    color: #FDF8ED !important;
-    transition: all 0.3s ease;
-}
-
-.dropdown-item:hover {
-    background-color: #3D2B1F !important;
-    color: #2A829D !important;
-    padding-left: 25px !important;
-}
-
-/* 5. LINKI (POSTY, LISTA, READ MORE) */
-a, .post-content a, .post-preview a, .more-link {
+/* 5. LINKI */
+a, .post-content a, .more-link {
     color: #E294AA !important;
     text-decoration: none !important;
-    transition: all 0.3s ease;
 }
 
-a:hover, .post-content a:hover, .more-link:hover {
+a:hover {
     color: #2A829D !important;
 }
 
-.more-link {
-    font-weight: 600;
-    text-transform: lowercase;
-    font-size: 1rem;
-}
-
-/* 6. UKŁAD POSTÓW (ODDECH I HOVER) */
+/* 6. UKŁAD POSTÓW (HOVER) */
 .post-preview {
     margin-bottom: 60px !important;
     padding: 25px;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
     border-radius: 20px;
+    transition: all 0.4s ease;
 }
 
 .post-preview:hover {
     background-color: rgba(255, 255, 255, 0.5) !important;
     transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(42, 130, 157, 0.1) !important;
 }
 
-/* 7. TAGI I PRZYCISKI (Różowy -> Niebieski) */
-.btn-primary, .tag-btn, .post-tag {
+/* 7. TAGI (Poprawka znikania fontu na hover) */
+.btn-primary, .tag-btn, .post-tag, .blog-tags a {
     background-color: #E294AA !important;
     color: #FFFFFF !important;
-    border: none !important;
     border-radius: 30px !important;
     padding: 8px 20px !important;
-    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 5px;
 }
 
-.btn-primary:hover, .tag-btn:hover, .post-tag:hover {
+.btn-primary:hover, .tag-btn:hover, .post-tag:hover, .blog-tags a:hover {
     background-color: #2A829D !important;
-    color: #FFFFFF !important;
-    transform: scale(1.1);
+    color: #FFFFFF !important; /* To naprawia Twój błąd z niebieskim napisem na niebieskim tle */
     text-decoration: none !important;
+    transform: scale(1.1);
 }
 
-/* 8. STOPKA (FOOTER) */
+/* 8. STOPKA */
 footer {
     background-color: #3D2B1F !important;
     color: #FDF8ED !important;
     border-top: 3px solid #E294AA !important;
-    padding: 40px 0;
 }
 
 footer a { color: #E294AA !important; }
-footer a:hover { color: #2A829D !important; }
-
-footer .fa-circle {
-    color: #E294AA !important;
-    transition: all 0.3s ease;
-}
-
-footer .fa-inverse { color: #3D2B1F !important; }
-footer a:hover .fa-stack { transform: scale(1.2); }
+footer .fa-circle { color: #E294AA !important; }
 footer a:hover .fa-circle { color: #2A829D !important; }
 
 /* 9. WERSJA MOBILNA */
 @media only screen and (max-width: 767px) {
-    .post-preview { margin-bottom: 80px !important; }
-    .page-title { 
+    .page-title, .post-heading h1 { 
         font-size: 2.2rem !important; 
-        text-align: center !important; 
     }
 }
