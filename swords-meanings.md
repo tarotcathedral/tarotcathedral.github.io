@@ -22,8 +22,6 @@ To my surprise, some of my meanings are similar to the **Rider-Waite** deck, but
 
 ---
 
-## Swords Minor Arcana interpretation, meanings and symbols
-
 My interpretations are based on my own observations of the cards' designs. I focused on the differences between:
 
 - **Even-numbered cards:** Looking at the flowers in the center.
@@ -31,7 +29,10 @@ My interpretations are based on my own observations of the cards' designs. I foc
 
 I compared specific details, such as the size of the flowers, whether their stems are cut or whole, and the colors used for both the flowers and the swords. I also paid attention to unique details. For example, the **3 of Swords**, which is the only card that features both flowers and a sword together, or the broken golden sword on the **9 of Swords.**
 
----
+***
+
+## Swords Minor Arcana interpretation, meanings and symbols
+
 
 ![Ace of swords](/assets/img/swords-ace.jpg){: .mx-auto.d-block :}
 
@@ -161,15 +162,16 @@ Two blue swords (crossed). One of them is broken. They are stuck between the oth
 - **Work**: A fall from a position or the end of a career stage in a painful and messy way. Possible job loss, reorganization, or a failure where the power structure itself is damaged. "I won, but at the cost of my own sword."
 - **Person**: Someone who has gone through a final battle and came out of it broken - either physically or in terms of status and honor. It can also be a person who "won," but the victory left them with permanent damage.
 
----
-
-## Swords Court Cards - interpretation, meanings and symbols
+***
 
 The final act of the suit, shown in the broken blades of the **9 and 10 of Swords**, proves that cutting through reality too much eventually damages the tool of power itself.
 
 This suit ends tragically. If the **9 and 10** represent any kind of completeness, it is the completeness of self-destruction. Power destroys itself by cutting too much and too often. Eventually, power (whether it is noble, knightly, or personal) breaks its own tool. It delivers a final, damaged blow, and after that, no more moves are possible.
 
 ---
+
+## Swords Court Cards - interpretation, meanings and symbols
+
 
 ![Valet of swords](/assets/img/swords-valet.jpg){: .mx-auto.d-block :}
 
