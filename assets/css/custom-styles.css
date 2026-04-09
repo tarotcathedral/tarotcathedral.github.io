@@ -12,31 +12,6 @@ Clean, Consistent & Atmospheric
 
 
 
-/* 2. BAZA I MAGICZNY KURSOR */
-
-body {
-
-background-color: #F7F1E3 !important; /* Jasny Pergamin */
-
-color: #473636; /* Ciemnoszary czerwony */
-
-font-family: 'Quicksand', sans-serif !important;
-
-line-height: 1.85 !important;
-
-letter-spacing: 0.01rem;
-
-cursor: url('/assets/img/kursor.png'), auto !important;
-
-}
-
-/* Kursor dla wszystkich elementów klikalnych */
-
-a, button, .tag-btn, .post-tag, .navbar-brand, .nav-link, .dropdown-item {
-
-cursor: url('/assets/img/kursor.png'), pointer !important;
-
-}
 
 /* Złociste zaznaczanie tekstu */
 
