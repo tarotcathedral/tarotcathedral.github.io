@@ -377,6 +377,6 @@ box-shadow: 0 0 0 0.2rem rgba(157, 47, 77, 0.25) !important;
 .post-read-more {
 
     font-family: 'Work Sans', sans-serif !important;
-    font-weight: normal;
+    font-weight: normal !important;
 
 }
