@@ -139,7 +139,7 @@ color: #F7F1E3 !important; /* Tekst pergaminowy dla kontrastu */
 border: none !important;
 border-radius: 30px !important;
 padding: 4px 12px !important;
-font-size: 0.85rem !important;
+font-size: 1rem !important;
 display: inline-block !important;
 margin: 3px !important;
 transition: all 0.3s ease;
@@ -223,6 +223,7 @@ box-shadow: 0 0 0 0.2rem rgba(157, 47, 77, 0.25) !important;
 .post-read-more {
     font-family: 'Barlow Condensed', sans-serif !important;
     font-weight: normal !important;
+          font-size: 1.25rem;
 }
 
 /* Nowy element */
