@@ -1,131 +1,407 @@
 /* ============================================================
+
 TAROT CATHEDRAL - MYSTIC EDITION ⛪️🃏
+
 Clean, Consistent & Atmospheric
+
 ============================================================ */
+
 /* 1. IMPORT CZCIONEK */
+
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Quicksand:wght@400;500;600;700&display=swap');
 
+
+
 /* 2. BAZA I MAGICZNY KURSOR */
+
 body {
+
 background-color: #F7F1E3 !important; /* Jasny Pergamin */
+
 color: #473636; /* Ciemnoszary czerwony */
+
 font-family: 'Quicksand', sans-serif !important;
+
 line-height: 1.85 !important;
+
 letter-spacing: 0.01rem;
+
 cursor: url('/assets/img/kursor.png'), auto !important;
+
 }
+
 /* Kursor dla wszystkich elementów klikalnych */
+
 a, button, .tag-btn, .post-tag, .navbar-brand, .nav-link, .dropdown-item {
+
 cursor: url('/assets/img/kursor.png'), pointer !important;
+
 }
+
 /* Złociste zaznaczanie tekstu */
+
 ::selection { background: rgba(191, 160, 113, 0.2); color: #473636; }
 
+
+
 /* 3. TYPOGRAFIA (NAGŁÓWKI) */
+
 h1, .page-title, .navbar-brand, .site-heading {
+
 font-family: 'Alice', serif !important;
+
 color: #473636 !important; /* Ciemnoszary czerwony */
+
 text-align: center !important;
+
 text-shadow: none !important;
+
 background: none !important;
+
 -webkit-text-fill-color: initial !important;
+
 animation: none !important;
+
 }
+
 /* Wyśrodkowanie podtytułu strony oraz podtytułów postów */
+
 .page-subheading, .post-subheading {
+
 text-align: center !important;
+
 display: block !important;
+
 width: 100% !important;
+
 margin: 10px auto !important;
+
 font-family: 'Quicksand', sans-serif !important;
+
 font-weight: 600 !important;
+
 color: #473636 !important;
+
 }
+
 /* Wyśrodkowanie daty i autora TYLKO na podstronie posta */
+
 .post-heading .post-meta {
+
     text-align: center !important;
+
     display: block !important;
+
     width: 100% !important;
+
     margin-bottom: 20px !important;
+
     font-family: 'Quicksand', sans-serif !important;
+
 }
+
+
 
 /* Wyjustowanie daty i autora do lewej na stronie głównej */
+
 .post-preview .post-meta {
+
     text-align: left !important;
+
     font-family: 'Quicksand', sans-serif !important;
+
 }
+
 h2, h3, h4, .post-subtitle {
+
 font-family: 'Alice', serif !important;
+
 font-weight: 600 !important;
+
 color: #473636 !important; /* Ciemnoszary czerwony */
+
 }
+
+
 
 /* 4. NAWIGACJA (MENU) */
+
 .navbar {
+
 background-color: #473636 !important; /* Ciemnoszary czerwony */
+
 border-bottom: 3px solid #BFA071 !important; /* Mosiężne Złoto */
+
 }
+
 .navbar a, .navbar-brand {
+
 color: #F7F1E3 !important; /* Jasny Pergamin */
+
 transition: all 0.3s ease;
+
 }
+
 .navbar a:hover, .navbar-brand:hover, .nav-link:hover {
+
 color: #9D2F4D !important; /* Karmazynowy Hover */
+
 background: transparent !important;
+
 }
+
 /* Dropdown (Menu rozwijane) - Poprawione krawędzie */
+
 .dropdown-menu {
+
 background-color: #382A2A !important; /* Przyciemniony Ciemnoszary czerwony */
+
 border: 2px solid #BFA071 !important; /* Mosiężne Złoto */
+
 border-radius: 0px !important; 
+
 overflow: hidden !important;
+
 padding: 0 !important;
+
 box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
 }
+
 .dropdown-item {
+
 color: #F7F1E3 !important;
+
 padding: 10px 20px !important;
+
 transition: all 0.3s ease;
+
 font-family: 'Quicksand', sans-serif !important;
+
 }
+
 .dropdown-item:hover {
+
 background-color: #473636 !important;
+
 color: #BFA071 !important; /* Złoty hover w menu */
+
 padding-left: 25px !important;
+
 }
+
+
 
 /* 5. LINKI (POSTY, LISTA, READ MORE) */
+
 a, .post-content a, .post-preview a, .more-link {
+
 color: #7190BF !important; /* Przydymiony Chabrowy */
+
 text-decoration: none !important;
+
 transition: all 0.3s ease;
+
 }
+
 a:hover, .post-content a:hover, .more-link:hover {
+
 color: #9D2F4D !important; /* Karmazynowy Hover */
+
 }
+
 .more-link {
+
 font-weight: 600;
+
 text-transform: lowercase;
+
 font-size: 1rem;
+
 font-family: 'Quicksand', sans-serif !important;
+
 }
+
+
 
 /* 6. UKŁAD POSTÓW (ODDECH I HOVER) */
+
 .post-preview {
+
 margin-bottom: 60px !important;
+
 padding: 25px;
+
 transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+
 border-radius: 20px;
-}
-.post-preview:hover {
-background-color: rgba(255, 255, 255, 0.3) !important;
-transform: translateY(-8px);
-box-shadow: 0 15px 35px rgba(71, 54, 54, 0.1) !important;
+
 }
 
+.post-preview:hover {
+
+background-color: rgba(255, 255, 255, 0.3) !important;
+
+transform: translateY(-8px);
+
+box-shadow: 0 15px 35px rgba(71, 54, 54, 0.1) !important;
+
+}
+
+
+
 /* 7. TAGI I PRZYCISKI (Ujednolicone) */
+
 .btn-primary, .tag-btn, .post-tag, .blog-tags a, .post-meta a {
+
 background-color: #BFA071 !important; /* Mosiężne Złoto */
+
 color: #F7F1E3 !important; /* Tekst pergaminowy dla kontrastu */
+
 border: none !important;
+
+border-radius: 30px !important;
+
+padding: 4px 12px !important;
+
+font-size: 0.85rem !important;
+
+display: inline-block !important;
+
+margin: 3px !important;
+
+transition: all 0.3s ease;
+
+text-decoration: none !important;
+
+font-family: 'Quicksand', sans-serif !important;
+
+}
+
+.blog-tags span {
+
+font-weight: 600;
+
+margin-right: 5px;
+
+color: #473636;
+
+font-family: 'Quicksand', sans-serif !important;
+
+}
+
+.btn-primary:hover, .tag-btn:hover, .post-tag:hover, .blog-tags a:hover, .post-meta a:hover {
+
+background-color: #9D2F4D !important; /* Karmazynowy Hover */
+
+color: #FFFFFF !important;
+
+transform: scale(1.05);
+
+}
+
+.tag-btn {
+
+padding: 8px 20px !important;
+
+font-size: 1rem !important;
+
+}
+
+
+
+/* 8. STOPKA (FOOTER) */
+
+footer {
+
+background-color: #473636 !important; /* Ciemnoszary czerwony */
+
+color: #F7F1E3 !important;
+
+border-top: 3px solid #BFA071 !important; /* Mosiężne Złoto */
+
+padding: 40px 0;
+
+font-family: 'Quicksand', sans-serif !important;
+
+}
+
+footer a { color: #7190BF !important; }
+
+footer a:hover { color: #9D2F4D !important; }
+
+footer .fa-circle {
+
+color: #BFA071 !important; /* Mosiężne Złoto */
+
+transition: all 0.3s ease;
+
+}
+
+footer .fa-inverse { color: #473636 !important; }
+
+footer a:hover .fa-stack { transform: scale(1.2); }
+
+footer a:hover .fa-circle { color: #9D2F4D !important; }
+
+
+
+/* 9. WERSJA MOBILNA */
+
+@media only screen and (max-width: 767px) {
+
+.post-preview { margin-bottom: 80px !important; }
+
+.page-title { font-size: 2.2rem !important;
+
+              text-align: center !important; }
+
+}
+
+/* Nawigacja między postami */
+
+.blog-pager .page-link {
+
+background-color: transparent !important;
+
+color: #7190BF !important;
+
+border: 2px solid #7190BF !important;
+
+border-radius: 30px !important;
+
+padding: 8px 20px !important;
+
+transition: all 0.3s ease !important;
+
+font-weight: 600 !important;
+
+text-transform: lowercase;
+
+font-family: 'Quicksand', sans-serif !important;
+
+}
+
+.blog-pager .page-item a:hover {
+
+background-color: #9D2F4D !important; /* Karmazynowy Hover */
+
+color: #FFFFFF !important;
+
+border-color: #9D2F4D !important;
+
+transform: scale(1.05);
+
+}
+
+.page-link:focus {
+
+box-shadow: 0 0 0 0.2rem rgba(157, 47, 77, 0.25) !important;
+
+}
+
+.post-read-more {
+    font-family: 'Quicksand', sans-serif !important;
+
+}
+    
