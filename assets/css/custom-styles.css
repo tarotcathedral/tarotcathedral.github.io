@@ -228,4 +228,5 @@ box-shadow: 0 0 0 0.2rem rgba(157, 47, 77, 0.25) !important;
 /* Nowy element */
 .nav-link {
     font-family: 'Barlow Condensed', sans-serif !important;
+    font-size: 1rem;
 }
