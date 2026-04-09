@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-**Short bio:**<br>
+**Short bio:**<br><br>
 **Nationality:** 🇵🇱<br> 
 **Gender:** female<br>
 **Zodiac Sign (tropical):** Aries<br>
