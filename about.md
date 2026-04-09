@@ -3,12 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
-**Short bio:**
-**Nationality:** 🇵🇱 
-**Gender:** female
-**Zodiac Sign (tropical):** Aries
-**Hobby:** Tarot de Marseille, astrology, numerology, true crime, art
-**Favorite Tarot card:** Ace of Cups
+**Short bio:**<br>
+**Nationality:** 🇵🇱<br> 
+**Gender:** female<br>
+**Zodiac Sign (tropical):** Aries<br>
+**Hobby:** Tarot de Marseille, astrology, numerology, true crime, artv
+**Favorite Tarot card:** Ace of Cups<br>
 
 I received my first Tarot deck as a gift in 2008. It was a deck based on the secret drawings used by the **Hermetic Order of the Golden Dawn**.
 
