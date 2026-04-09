@@ -10,14 +10,27 @@ Clean, Consistent & Atmospheric
 
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Quicksand:wght@400;500;600;700&display=swap');
 
+/* 2. BAZA I MAGICZNY KURSOR */
 
+body {
+
+background-color: #F7F1E3 !important; /* Jasny Pergamin */
+
+color: #473636; /* Ciemnoszary czerwony */
+
+font-family: 'Quicksand', sans-serif !important;
+
+line-height: 1.85 !important;
+
+letter-spacing: 0.01rem;
+
+
+}
 
 
 /* Złociste zaznaczanie tekstu */
 
 ::selection { background: rgba(191, 160, 113, 0.2); color: #473636; }
-
-
 
 /* 3. TYPOGRAFIA (NAGŁÓWKI) */
 
@@ -33,7 +46,7 @@ text-shadow: none !important;
 
 background: none !important;
 
--webkit-text-fill-color: initial !important;
+- webkit-text-fill-color: initial !important;
 
 animation: none !important;
 
@@ -63,27 +76,29 @@ color: #473636 !important;
 
 .post-heading .post-meta {
 
-    text-align: center !important;
+```
+text-align: center !important;
 
-    display: block !important;
+display: block !important;
 
-    width: 100% !important;
+width: 100% !important;
 
-    margin-bottom: 20px !important;
+margin-bottom: 20px !important;
 
-    font-family: 'Quicksand', sans-serif !important;
+font-family: 'Quicksand', sans-serif !important;
+```
 
 }
-
-
 
 /* Wyjustowanie daty i autora do lewej na stronie głównej */
 
 .post-preview .post-meta {
 
-    text-align: left !important;
+```
+text-align: left !important;
 
-    font-family: 'Quicksand', sans-serif !important;
+font-family: 'Quicksand', sans-serif !important;
+```
 
 }
 
@@ -96,8 +111,6 @@ font-weight: 600 !important;
 color: #473636 !important; /* Ciemnoszary czerwony */
 
 }
-
-
 
 /* 4. NAWIGACJA (MENU) */
 
@@ -133,7 +146,7 @@ background-color: #382A2A !important; /* Przyciemniony Ciemnoszary czerwony */
 
 border: 2px solid #BFA071 !important; /* Mosiężne Złoto */
 
-border-radius: 0px !important; 
+border-radius: 0px !important;
 
 overflow: hidden !important;
 
@@ -165,8 +178,6 @@ padding-left: 25px !important;
 
 }
 
-
-
 /* 5. LINKI (POSTY, LISTA, READ MORE) */
 
 a, .post-content a, .post-preview a, .more-link {
@@ -197,8 +208,6 @@ font-family: 'Quicksand', sans-serif !important;
 
 }
 
-
-
 /* 6. UKŁAD POSTÓW (ODDECH I HOVER) */
 
 .post-preview {
@@ -222,8 +231,6 @@ transform: translateY(-8px);
 box-shadow: 0 15px 35px rgba(71, 54, 54, 0.1) !important;
 
 }
-
-
 
 /* 7. TAGI I PRZYCISKI (Ujednolicone) */
 
@@ -283,8 +290,6 @@ font-size: 1rem !important;
 
 }
 
-
-
 /* 8. STOPKA (FOOTER) */
 
 footer {
@@ -319,8 +324,6 @@ footer a:hover .fa-stack { transform: scale(1.2); }
 
 footer a:hover .fa-circle { color: #9D2F4D !important; }
 
-
-
 /* 9. WERSJA MOBILNA */
 
 @media only screen and (max-width: 767px) {
@@ -329,7 +332,9 @@ footer a:hover .fa-circle { color: #9D2F4D !important; }
 
 .page-title { font-size: 2.2rem !important;
 
-              text-align: center !important; }
+```
+          text-align: center !important; }
+```
 
 }
 
@@ -374,9 +379,3 @@ transform: scale(1.05);
 box-shadow: 0 0 0 0.2rem rgba(157, 47, 77, 0.25) !important;
 
 }
-
-.post-read-more {
-    font-family: 'Quicksand', sans-serif !important;
-
-}
-    
