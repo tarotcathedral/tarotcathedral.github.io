@@ -7,7 +7,7 @@ permalink: /about/
 **Nationality:** 🇵🇱<br> 
 **Gender:** female<br>
 **Zodiac Sign (tropical):** Aries<br>
-**Hobby:** Tarot de Marseille, astrology, numerology, true crime, art
+**Hobby:** Tarot de Marseille, astrology, numerology, true crime, art<br>
 **Favorite Tarot card:** Ace of Cups<br>
 
 I received my first Tarot deck as a gift in 2008. It was a deck based on the secret drawings used by the **Hermetic Order of the Golden Dawn**.
