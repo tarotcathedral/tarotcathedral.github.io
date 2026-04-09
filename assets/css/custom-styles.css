@@ -342,4 +342,40 @@ color: #7190BF !important;
 
 border: 2px solid #7190BF !important;
 
-border-radius:
+border-radius: 30px !important;
+
+padding: 8px 20px !important;
+
+transition: all 0.3s ease !important;
+
+font-weight: 600 !important;
+
+text-transform: lowercase;
+
+font-family: 'Work Sans', sans-serif !important;
+
+}
+
+.blog-pager .page-item a:hover {
+
+background-color: #9D2F4D !important; /* Karmazynowy Hover */
+
+color: #FFFFFF !important;
+
+border-color: #9D2F4D !important;
+
+transform: scale(1.05);
+
+}
+
+.page-link:focus {
+
+box-shadow: 0 0 0 0.2rem rgba(157, 47, 77, 0.25) !important;
+
+}
+
+.post-read-more {
+
+    font-family: 'Work Sans', sans-serif !important;
+
+}
