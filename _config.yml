@@ -42,8 +42,8 @@ social-network-links:
   rss: true
   # facebook: twoj_facebook
   # youtube: twoj_kanal
-  threads: tarotcathedral
-  bluesky: tarotcathedral
+  threads: https://www.threads.com/@tarotcathedral
+  bluesky: tarotcathedral.bsky.social
 
 ###########################
 # --- General options --- #
