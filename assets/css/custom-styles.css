@@ -29,8 +29,8 @@ background: none !important;
 animation: none !important;
 }
 
-/* Wyśrodkowanie podtytułu strony oraz podtytułów postów */
-.page-subheading, .post-subheading {
+/* Wyśrodkowanie podtytułu strony oraz podtytułów postów oraz ich kolory */
+.page-subheading {
 text-align: center !important;
 display: block !important;
 width: 100% !important;
@@ -38,6 +38,17 @@ margin: 10px auto !important;
 font-family: 'Barlow Condensed', sans-serif !important;
 font-weight: 600 !important;
 color: #473636 !important;
+}
+
+/* Wyśrodkowanie podtytułu strony oraz podtytułów postów oraz ich kolory */
+.post-subheading {
+text-align: center !important;
+display: block !important;
+width: 100% !important;
+margin: 10px auto !important;
+font-family: 'Barlow Condensed', sans-serif !important;
+font-weight: 600 !important;
+color: #9d2f4d !important; /* kamazynowy */
 }
 
 /* Wyśrodkowanie daty i autora TYLKO na podstronie posta */
