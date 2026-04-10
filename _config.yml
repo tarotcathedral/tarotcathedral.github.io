@@ -43,6 +43,7 @@ social-network-links:
   # facebook: twoj_facebook
   # youtube: twoj_kanal
   threads: https://www.threads.com/@tarotcathedral
+  bluesky: https://bsky.app/profile/tarotcathedral.bsky.social
 
 ###########################
 # --- General options --- #
