@@ -92,6 +92,7 @@ color: #F7F1E3 !important;
 padding: 10px 20px !important;
 transition: all 0.3s ease;
 font-family: 'Barlow Condensed', sans-serif !important;
+font-size: 1rem;
 }
 
 .dropdown-item:hover {
