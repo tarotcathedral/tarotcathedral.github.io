@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 **Short bio:**<br><br>
-**Nationality:** 🇵🇱<br> 
+**Nationality:** Polish<br> 
 **Gender:** female<br>
 **Zodiac Sign (tropical):** Aries<br>
 **Hobby:** Tarot de Marseille, true crime, art<br>
