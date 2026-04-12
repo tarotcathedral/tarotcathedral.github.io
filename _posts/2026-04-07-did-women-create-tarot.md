@@ -12,7 +12,7 @@ We often talk about **Pamela Colman-Smith**, who painted the Rider-Waite-Smith d
 
 But let’s look further back: **15th-century Italy**.
 
-At that time, various "proto-tarot" decks existed, but the first real Tarot deck was created as a wedding gift for **Francesco Sforza and Bianca Visconti**. It was probably painted by Bonifacio Bembo. The cards show symbols of their families. For example, the Lovers card depicts their wedding.
+At that time, various "proto-tarot" decks existed, but the first real Tarot deck was created as a wedding gift for **Francesco Sforza and Bianca Visconti**. It was probably painted by Bonifacio Bembo around 1451. The cards show symbols of the Sforza and Visconti families. For example, the Lovers card depicts their wedding.
 
 ![Lovers card in visconti sforza tarot](/assets/img/visconti-sforza-lovers.jpg){: .mx-auto.d-block :}
 
